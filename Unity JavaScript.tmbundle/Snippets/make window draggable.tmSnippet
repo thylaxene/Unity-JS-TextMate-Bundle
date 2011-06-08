@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>// Make the windows be draggable.
+GUI.DragWindow (Rect (0,0,10000,10000));</string>
+	<key>name</key>
+	<string>make window draggable</string>
+	<key>scope</key>
+	<string>source.js.unity</string>
+	<key>tabTrigger</key>
+	<string>drag</string>
+	<key>uuid</key>
+	<string>4EDAB378-E17D-49A0-BF67-89F429A50D3E</string>
+</dict>
+</plist>

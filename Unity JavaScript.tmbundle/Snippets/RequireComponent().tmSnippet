@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>@script RequireComponent(${1:$TM_SELECTED_TEXT})$0</string>
+	<key>name</key>
+	<string>RequireComponent()</string>
+	<key>scope</key>
+	<string>source.js.unity</string>
+	<key>tabTrigger</key>
+	<string>req</string>
+	<key>uuid</key>
+	<string>175E3544-06EA-4A3E-A545-6B204E63DA04</string>
+</dict>
+</plist>

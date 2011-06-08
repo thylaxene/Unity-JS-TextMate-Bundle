@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>ref=${TM_SELECTED_TEXT} 
+UNITYDOC="/Applications/Unity/Unity.app/Contents/Documentation/Documentation/ScriptReference/$ref.html"
+
+if [[ -f "$UNITYDOC" ]] 
+   then [[ -n "$UNITYDOC" ]] &amp;&amp; exit_show_html "&lt;meta http-equiv='Refresh' content='0;URL=tm-file://$UNITYDOC'&gt;" 
+   else echo "No Unity documentation found for: $TM_SELECTED_TEXT" 
+fi</string>
+	<key>fallbackInput</key>
+	<string>word</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>^~@h</string>
+	<key>name</key>
+	<string>Documentation for Selected Class</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>583835B2-7C1C-43AE-8113-D318ED64F16B</string>
+</dict>
+</plist>

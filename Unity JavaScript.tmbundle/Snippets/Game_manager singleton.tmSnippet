@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Game.manager.$0</string>
+	<key>name</key>
+	<string>Game.manager singleton</string>
+	<key>scope</key>
+	<string>source.js.unity</string>
+	<key>tabTrigger</key>
+	<string>gm</string>
+	<key>uuid</key>
+	<string>F4CF19B6-1EDF-4C87-B59F-AF9E8A1CBE7D</string>
+</dict>
+</plist>

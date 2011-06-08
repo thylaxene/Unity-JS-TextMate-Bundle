@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>@script AddComponentMenu("${1:$TM_SELECTED_TEXT}")$0</string>
+	<key>name</key>
+	<string>AddComponentMenu()</string>
+	<key>scope</key>
+	<string>source.js.unity</string>
+	<key>tabTrigger</key>
+	<string>menu</string>
+	<key>uuid</key>
+	<string>C38A8F98-EBA8-45AA-875F-A9D28C376C88</string>
+</dict>
+</plist>

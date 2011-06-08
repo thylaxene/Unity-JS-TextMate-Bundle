@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>function OnTriggerEnter ( other : Collider ) {
+    $0
+}</string>
+	<key>name</key>
+	<string>OnTriggerEnter()</string>
+	<key>scope</key>
+	<string>source.js.unity</string>
+	<key>tabTrigger</key>
+	<string>trig</string>
+	<key>uuid</key>
+	<string>C81F4DE1-EE7A-4C86-9AC6-49462A0FC09A</string>
+</dict>
+</plist>

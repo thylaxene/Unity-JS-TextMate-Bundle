@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>[ -f "$TM_NEW_FILE" ] ||  perl -pe 's/\$\{([^}]*)\}/$ENV{$1}/g' &lt;default.js &gt;"$TM_NEW_FILE"</string>
+	<key>extension</key>
+	<string>js</string>
+	<key>name</key>
+	<string>JS Class File</string>
+	<key>scope</key>
+	<string>text.js</string>
+	<key>uuid</key>
+	<string>B3F657AF-4D23-4622-86D5-12FD79C9296B</string>
+</dict>
+</plist>

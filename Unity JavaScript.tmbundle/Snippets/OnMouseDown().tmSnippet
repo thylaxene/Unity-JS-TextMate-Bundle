@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>// remember you need a collider on the gameObject to use this
+function OnMouseDown () {
+    $0
+}</string>
+	<key>name</key>
+	<string>OnMouseDown()</string>
+	<key>scope</key>
+	<string>source.js.unity</string>
+	<key>tabTrigger</key>
+	<string>clicked</string>
+	<key>uuid</key>
+	<string>563CE99E-2610-464F-8C94-AB072019A558</string>
+</dict>
+</plist>

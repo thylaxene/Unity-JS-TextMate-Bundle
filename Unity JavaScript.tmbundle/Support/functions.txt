@@ -1,0 +1,2221 @@
+Abs%Abs (int value)
+AcceptDrag%AcceptDrag ()
+Acos%Acos (float f)
+Add%Add (object value)
+AddBinaryData%AddBinaryData (string fieldName, byte[] contents, string fileName=null, string mimeType = null)
+AddClip%AddClip (AnimationClip clip, string newName, int firstFrame, int lastFrame, bool addLoopFrame = false)
+AddColor%AddColor (string name, Color value)
+AddComponent%AddComponent (string className)%Adds a component class named className to the game object
+AddComponentMenu%AddComponentMenu (string menuName)
+AddControl%AddControl (int controlId, float distance)
+AddCursorRect%AddCursorRect (Rect position, MouseCursor mouse)
+AddDefaultControl%AddDefaultControl (int controlId)
+AddEvent%AddEvent (AnimationEvent theEvent)
+AddExplosionForce%AddExplosionForce (float explosionForce, Vector3 explosionPosition, float explosionRadius, float upwardsModifier = 0.0F, ForceMode mode = ForceMode.Force)
+AddField%AddField (string fieldName, string value, Encoding e=System.Text.Encoding.UTF8)
+AddFloat%AddFloat (string name, float value)
+AddForce%AddForce (float x, float y, float z, ForceMode mode = ForceMode.Force)
+AddForceAtPosition%AddForceAtPosition (Vector3 force, Vector3 position, ForceMode mode = ForceMode.Force)
+AddKey%AddKey (float time, float value)
+AddMatrix%AddMatrix (string name, Matrix4x4 value)
+AddMixingTransform%AddMixingTransform (Transform mix, bool recursive = true)
+AddObjectToAsset%AddObjectToAsset (Object objectToAdd, string assetPath)
+AddRelativeForce%AddRelativeForce (float x, float y, float z, ForceMode mode = ForceMode.Force)
+AddRelativeTorque%AddRelativeTorque (float x, float y, float z, ForceMode mode = ForceMode.Force)
+AddTorque%AddTorque (float x, float y, float z, ForceMode mode = ForceMode.Force)
+AddVector%AddVector (string name, Vector4 value)
+AllocateViewID%AllocateViewID ()
+Angle%Angle (Vector3 from, Vector3 to)
+AngleAxis%AngleAxis (float angle, Vector3 axis)
+Animation%Animation
+AnimationBlendMode%AnimationBlendMode.Blend
+AnimationClip%AnimationClip ()
+AnimationClipCurveData%AnimationClipCurveData
+AnimationCurve%AnimationCurve (params Keyframe[] keys)
+AnimationEvent%AnimationEvent ()
+AnimationState%AnimationState
+AnimationUtility%AnimationUtility
+Application%Application
+Apply%Apply (bool updateMipmaps = true)
+Approximately%Approximately (float a, float b)
+Array%Array
+Asin%Asin (float f)
+AssetBundle%AssetBundle
+AssetDatabase%AssetDatabase
+AssetImporter%AssetImporter
+AssetPathToGUID%AssetPathToGUID (string path)
+AssetPostprocessor%AssetPostprocessor
+Atan%Atan (float f)
+Atan2%Atan2 (float y, float x)
+AudioClip%AudioClip
+AudioImporter%AudioImporter
+AudioImporterChannels%AudioImporterChannels.Stereo
+AudioImporterFormat%AudioImporterFormat.Uncompressed
+AudioListener%AudioListener
+AudioSource%AudioSource
+AudioVelocityUpdateMode%AudioVelocityUpdateMode.Fixed
+Awake%Awake ()%Awake is called when the script instance is being loaded
+Beep%Beep ()
+Begin%Begin (int mode)
+BeginArea%BeginArea (Rect screenRect, string text, GUIStyle style)
+BeginGUI%BeginGUI (Rect position)
+BeginGroup%BeginGroup (string GroupName)
+BeginHorizontal%BeginHorizontal (string text, params GUILayoutOption[] options)
+BeginLayoutGroup%BeginLayoutGroup (GUIStyle style, GUILayoutOption[] options, System.Type LayoutType)
+BeginScrollView%BeginScrollView (Vector2 scrollPosition, params GUILayoutOption[] options)
+BeginToggleGroup%BeginToggleGroup (string label, bool toggle)
+BeginVertical%BeginVertical (string text, params GUILayoutOption[] options)
+BeginVerticalScrollView%BeginVerticalScrollView (Vector2 scrollPosition, params GUILayoutOption[] options)
+Behaviour%Behaviour
+BitStream%BitStream
+Blend%Blend (string animation, float targetWeight = 1.0F, float fadeLength = 0.3F)
+BoneWeight%BoneWeight
+Bounds%Bounds (Vector3 center, Vector3 size)
+Box%Box (string text, params GUILayoutOption[] options)
+BoxCollider%BoxCollider
+Break%Break ()
+BringWindowToBack%BringWindowToBack (int windowID)
+BringWindowToFront%BringWindowToFront (int windowID)
+BroadcastMessage%BroadcastMessage (string methodName, object parameter = null, SendMessageOptions options = SendMessageOptions.RequireReceiver)%Calls the method named methodName on every MonoBehaviour in this game object or any of its children
+BuildAssetBundle%BuildAssetBundle (Object mainAsset, Object[] assets, string pathName, BuildAssetBundleOptions options = BuildAssetBundleOptions.CollectDependencies | BuildAssetBundleOptions.CompleteAssets)
+BuildAssetBundleOptions%BuildAssetBundleOptions.CompleteAssets
+BuildOptions%BuildOptions.StripDebugSymbols
+BuildPipeline%BuildPipeline
+BuildPlayer%BuildPlayer (string[] levels, string locationPathName, BuildTarget target, BuildOptions options)
+BuildTarget%BuildTarget.WebPlayerStreamed
+Button%Button (string text, params GUILayoutOption[] options)
+CalcHeight%CalcHeight (GUIContent content, float width)
+CalcLineTranslation%CalcLineTranslation (Vector2 src, Vector2 dest, Vector3 srcPosition, Vector3 constraintDir)
+CalcMinMaxWidth%CalcMinMaxWidth (GUIContent content, out float minWidth, out float maxWidth)
+CalcScreenSize%CalcScreenSize (Vector2 contentSize)
+CalcSize%CalcSize (GUIContent content)
+CalculateFrustumPlanes%CalculateFrustumPlanes (Matrix4x4 worldToProjectionMatrix)
+Camera%Camera
+CameraClearFlags%CameraClearFlags.SolidColor
+CanStreamedLevelBeLoaded%CanStreamedLevelBeLoaded (string levelName)
+CancelInvoke%CancelInvoke (string methodName)
+CancelQuit%CancelQuit ()
+CapsuleCollider%CapsuleCollider
+CaptureScreenshot%CaptureScreenshot (string filename)
+Ceil%Ceil (float f)
+CeilToInt%CeilToInt (float f)
+CharacterController%CharacterController
+CharacterJoint%CharacterJoint
+CheckCapsule%CheckCapsule (Vector3 start, Vector3 end, float radius, int layermask =kDefaultRaycastLayers)
+CheckSphere%CheckSphere (Vector3 position, float radius, int layerMask = kDefaultRaycastLayers)
+Clamp%Clamp (int value, int min, int max)
+Clamp01%Clamp01 (float value)
+Clear%Clear (bool clearDepth, bool clearColor, Color backgroundColor)
+ClearCamera%ClearCamera (Rect position, Camera camera)
+ClearCurves%ClearCurves ()
+ClearHostList%ClearHostList ()
+ClearParticles%ClearParticles ()
+ClearProgressBar%ClearProgressBar ()
+ClearUndo%ClearUndo (Object identifier)
+CloneComponent%CloneComponent (Component c)
+Close%Close ()
+CloseConnection%CloseConnection (NetworkPlayer target, bool sendDisconnectionNotification)
+ClosestPointOnBounds%ClosestPointOnBounds (Vector3 position)
+ClosestPointToArc%ClosestPointToArc (Vector3 center, Vector3 normal, Vector3 from, float angle, float radius)
+ClosestPointToDisc%ClosestPointToDisc (Vector3 center, Vector3 normal, float radius)
+ClosestPointToPolyLine%ClosestPointToPolyLine (params Vector3[] vertices)
+ClosestPowerOfTwo%ClosestPowerOfTwo (int value)
+CollectDependencies%CollectDependencies (Object[] roots)
+Collider%Collider
+Collision%Collision
+CollisionFlags%CollisionFlags.Sides
+Color%Color (float r, float g, float b, float a)
+ColorField%ColorField (string label, Color value, params GUILayoutOption[] options)
+Combine%Combine (string path1, string path2)
+Combine%Combine (staticBatchRoot : GameObject)
+Combine%Combine (gos : GameObject[], staticBatchRoot : GameObject)
+CommandEvent%CommandEvent (string commandName)
+CompareTag%CompareTag (string tag)
+Component%Component
+Concat%Concat (Array array, Array optionalArray0, Array optionalArray1)
+ConfigurableJoint%ConfigurableJoint
+ConfigurableJointMotion%ConfigurableJointMotion.Locked
+Connect%Connect (string[] IPs, int remotePort, string password = "")
+ConnectionTesterStatus%ConnectionTesterStatus.Undetermined
+ConstantForce%ConstantForce
+ContactPoint%ContactPoint
+Contains%Contains (object key)
+ContainsKey%ContainsKey (object key)
+ContainsValue%ContainsValue (object key)
+ContextMenu%ContextMenu (string name)
+ControllerColliderHit%ControllerColliderHit
+CopyAsset%CopyAsset (string path, string newPath)
+CopyFileOrDirectory%CopyFileOrDirectory (string from, string to)
+CopyFileOrDirectoryFollowSymlinks%CopyFileOrDirectoryFollowSymlinks (string from, string to)
+CopyFrom%CopyFrom (Camera other)
+CopyPropertiesFromMaterial%CopyPropertiesFromMaterial (Material mat)
+CopySerialized%CopySerialized (Object source, Object dest)
+Coroutine%Coroutine
+Cos%Cos (float f)
+Create%Create ()
+CreateAsset%CreateAsset (Object asset, string path)
+CreateEmptyPrefab%CreateEmptyPrefab (string path)
+CreateInstance%CreateInstance (string className)
+CreatePrimitive%CreatePrimitive (PrimitiveType type)
+CreateTerrainGameObject%CreateTerrainGameObject (TerrainData assignTerrain)
+Cross%Cross (Vector3 lhs, Vector3 rhs)
+CrossFade%CrossFade (string animation, float fadeLength = 0.3F, PlayMode mode = PlayMode.StopSameLayer)
+CrossFadeQueued%CrossFadeQueued (string animation, float fadeLength = 0.3F, QueueMode queue = QueueMode.CompleteOthers, PlayMode mode = PlayMode.StopSameLayer)
+Cubemap%Cubemap (int size, TextureFormat format, bool mipmap)
+CubemapFace%CubemapFace.PositiveZ
+Debug%Debug
+DecreaseLevel%DecreaseLevel ()
+Deg2Rad%Deg2Rad
+DeleteAll%DeleteAll ()
+DeleteAsset%DeleteAsset (string path)
+DeleteFileOrDirectory%DeleteFileOrDirectory (string path)
+DeleteKey%DeleteKey (string key)
+Destroy%Destroy (Object obj, float t = 0.0F)
+DestroyImmediate%DestroyImmediate (Object obj, bool allowDestroyingAssets = false)
+DestroyPlayerObjects%DestroyPlayerObjects (NetworkPlayer playerID)
+DetachChildren%DetachChildren ()
+Disc%Disc (Quaternion rotation, Vector3 position, Vector3 axis, float size, bool cutoffPlane, float snap)
+Disconnect%Disconnect (int timeout = 200)
+DisplayDialog%DisplayDialog (string title, string message, string ok, string cancel = "")
+DisplayDialogComplex%DisplayDialogComplex (string title, string message, string ok, string cancel, string alt)
+DisplayProgressBar%DisplayProgressBar (string title, string info, float progress)
+DisplayWizard%DisplayWizard (string title, System.Type klass, string createButtonName = "Create", string otherButtonName = "")
+Dispose%Dispose ()
+Distance%Distance (Vector4 a, Vector4 b)
+DistancePointLine%DistancePointLine (Vector3 point, Vector3 lineStart, Vector3 lineEnd)
+DistanceToArc%DistanceToArc (Vector3 center, Vector3 normal, Vector3 from, float angle, float radius)
+DistanceToCircle%DistanceToCircle (Vector3 position, float radius)
+DistanceToDisc%DistanceToDisc (Vector3 center, Vector3 normal, float radius)
+DistanceToLine%DistanceToLine (Vector3 p1, Vector3 p2)
+DistanceToPolyLine%DistanceToPolyLine (params Vector3[] points)
+DontDestroyOnLoad%DontDestroyOnLoad (Object target)
+Dot%Dot (Vector4 a, Vector4 b)
+DragAndDrop%DragAndDrop
+DragAndDropVisualMode%DragAndDropVisualMode.None
+DragWindow%DragWindow (Rect position)
+Draw%Draw (Rect position, string text, bool isHover, bool isActive, bool on, bool hasKeyboardFocus)
+DrawArrow%DrawArrow (int controlID, Vector3 position, Quaternion rotation, float size)
+DrawBezier%DrawBezier (Vector3 startPosition, Vector3 endPosition, Vector3 startTangent, Vector3 endTangent, float width)
+DrawCamera%DrawCamera (Rect position, Camera camera, int renderMode)
+DrawColorSwatch%DrawColorSwatch (Rect position, Color color)
+DrawCone%DrawCone (int controlID, Vector3 position, Quaternion rotation, float size)
+DrawCube%DrawCube (int controlID, Vector3 position, Quaternion rotation, float size)
+DrawCylinder%DrawCylinder (int controlID, Vector3 position, Quaternion rotation, float size)
+DrawGUITexture%DrawGUITexture (Rect screenRect, Texture texture, int leftBorder, int rightBorder, int topBorder, int bottomBorder, Material mat = null)
+DrawGizmo%DrawGizmo (GizmoType gizmo, Type drawnGizmoType)
+DrawIcon%DrawIcon (Vector3 center, string name)
+DrawLine%DrawLine (Vector3 start, Vector3 end, Color color = Color.white)
+DrawMesh%DrawMesh (Mesh mesh, Vector3 position, Quaternion rotation, Material material, int layer, Camera camera = null, int submeshIndex = 0, MaterialPropertyBlock properties = null)
+DrawMeshNow%DrawMeshNow (Mesh mesh, Vector3 position, Quaternion rotation, int materialIndex)
+DrawPolyLine%DrawPolyLine (params Vector3[] points)
+DrawRay%DrawRay (Vector3 start, Vector3 dir, Color color = Color.white)
+DrawRectangle%DrawRectangle (int controlID, Vector3 position, Quaternion rotation, float size)
+DrawSolidArc%DrawSolidArc (Vector3 center, Vector3 normal, Vector3 from, float angle, float radius)
+DrawSolidDisc%DrawSolidDisc (Vector3 center, Vector3 normal, float radius)
+DrawSphere%DrawSphere (int controlID, Vector3 position, Quaternion rotation, float size)
+DrawTexture%DrawTexture (Rect screenRect, Texture texture, int leftBorder, int rightBorder, int topBorder, int bottomBorder, Material mat = null)
+DrawTextureAlpha%DrawTextureAlpha (Rect position, Texture image, ScaleMode scaleMode = ScaleMode.StretchToFill,float imageAspect = 0)
+DrawWireArc%DrawWireArc (Vector3 center, Vector3 normal, Vector3 from, float angle, float radius)
+DrawWireCube%DrawWireCube (Vector3 center, Vector3 size)
+DrawWireDisc%DrawWireDisc (Vector3 center, Vector3 normal, float radius)
+DrawWireSphere%DrawWireSphere (Vector3 center, float radius)
+DrawWithTextSelection%DrawWithTextSelection (Rect position, GUIContent content, int controlID, int firstSelectedCharacter, int lastSelectedCharacter)
+EaseInOut%EaseInOut (float timeStart, float valueStart, float timeEnd, float valueEnd)
+EditorApplication%EditorApplication
+EditorGUI%EditorGUI
+EditorGUILayout%EditorGUILayout
+EditorGUIUtility%EditorGUIUtility
+EditorPrefs%EditorPrefs
+EditorUtility%EditorUtility
+EditorWindow%EditorWindow
+Emit%Emit (int count)
+Encapsulate%Encapsulate (Vector3 point)
+EncodeToPNG%EncodeToPNG ()
+End%End ()
+EndArea%EndArea ()
+EndGUI%EndGUI ()
+EndGroup%EndGroup (string groupName)
+EndHorizontal%EndHorizontal ()
+EndScrollView%EndScrollView ()
+EndToggleGroup%EndToggleGroup ()
+EndVertical%EndVertical ()
+EnumField%EnumField (string label, int selectedValue, string[] stringValues, int[] valueMap, params GUILayoutOption[] options)
+Epsilon%Epsilon
+EscapeURL%EscapeURL (string s, Encoding e=System.Text.Encoding.UTF8)
+Euler%Euler (float x, float y, float z)
+Evaluate%Evaluate (float time)
+Event%Event
+EventType%EventType.ValidateCommand
+ExecuteInEditMode%ExecuteInEditMode
+ExitGUI%ExitGUI ()
+Exp%Exp (float power)
+Expand%Expand (float amount)
+ExpandHeight%ExpandHeight (bool expand)
+ExpandWidth%ExpandWidth (bool expand)
+ExternalCall%ExternalCall (string functionName, params object[] args)
+ExternalEval%ExternalEval (string script)
+ExtractOggFile%ExtractOggFile (Object obj, string path)
+FileUtil%FileUtil
+FilterMode%FilterMode.Trilinear
+Find%Find (string name)
+FindAsset%FindAsset (string path, Type type)
+FindGameObjectsWithTag%FindGameObjectsWithTag (string tag)
+FindObjectOfType%FindObjectOfType (Type type)
+FindObjectsOfType%FindObjectsOfType (Type type)
+FindStyle%FindStyle (string styleName)
+FindTexture%FindTexture (string name)
+FindWithTag%FindWithTag (string tag)
+FixedJoint%FixedJoint
+FixedUpdate%FixedUpdate ()
+Flare%Flare
+FlexibleSpace%FlexibleSpace ()
+FloatField%FloatField (string label, float value, params GUILayoutOption[] options)
+Floor%Floor (float f)
+FloorToInt%FloorToInt (float f)
+Focus%Focus ()
+FocusControl%FocusControl (string name)
+FocusType%FocusType.Passive
+FocusWindow%FocusWindow (int windowID)
+Foldout%Foldout (bool foldout, GUIContent content)
+Font%Font
+ForceMode%ForceMode.VelocityChange
+FormatBytes%FormatBytes (int bytes)
+FreeMoveHandle%FreeMoveHandle (Vector3 position, ref Quaternion rotation, float size, Handles.DrawCapFunction capFunc)
+FreeRotateHandle%FreeRotateHandle (Quaternion rotation, Vector3 position, float size)
+FromToRotation%FromToRotation (Vector3 fromDirection, Vector3 toDirection)
+GL%GL
+GUI%GUI
+GUIContent%GUIContent (string text, string tooltip)
+GUIDToAssetPath%GUIDToAssetPath (string guid)
+GUIElement%GUIElement
+GUILayer%GUILayer
+GUILayout%GUILayout
+GUILayoutOption%GUILayoutOption
+GUILayoutUtility%GUILayoutUtility
+GUIPointToWorldRay%GUIPointToWorldRay (Vector2 position)
+GUISettings%GUISettings
+GUISkin%GUISkin
+GUIStyle%GUIStyle (GUIStyle other)
+GUIStyleState%GUIStyleState
+GUIText%GUIText
+GUITexture%GUITexture
+GUIToScreenPoint%GUIToScreenPoint (Vector2 guiPoint)
+GUIUtility%GUIUtility
+GameObject%GameObject (string name, params Type[] components)
+GarbageCollectUnusedAssets%GarbageCollectUnusedAssets ()
+GenerateUniqueAssetPath%GenerateUniqueAssetPath (string path)
+GeometryUtility%GeometryUtility
+GetAccelerationEvent%GetAccelerationEvent (index : int)
+GetAllCurves%GetAllCurves (AnimationClip clip, bool includeCurveData = true)
+GetAnimatableProperties%GetAnimatableProperties (GameObject go)
+GetAnimationEvents%GetAnimationEvents (AnimationClip clip)
+GetAspectRect%GetAspectRect (float aspect, params GUILayoutOption[] options)
+GetAssetPath%GetAssetPath (Object assetObject)
+GetAtPath%GetAtPath (string path)
+GetAveragePing%GetAveragePing (NetworkPlayer player)
+GetAxis%GetAxis (string axisName)
+GetAxisRaw%GetAxisRaw (string axisName)
+GetBool%GetBool (string key, bool defaultValue = false)
+GetBuiltinSkin%GetBuiltinSkin (EditorSkin skin)
+GetButton%GetButton (string buttonName)
+GetButtonDown%GetButtonDown (string buttonName)
+GetButtonUp%GetButtonUp (string buttonName)
+GetCachedIcon%GetCachedIcon (string path)
+GetClass%GetClass ()
+GetClassName%GetClassName (Object obj)
+GetClipCount%GetClipCount ()
+GetColor%GetColor (string propertyName)
+GetColumn%GetColumn (int i)
+GetComponent%GetComponent (string type)
+GetComponentInChildren%GetComponentInChildren (Type type)
+GetComponents%GetComponents (Type type)
+GetComponentsInChildren%GetComponentsInChildren (Type type, bool includeInactive = false)
+GetControlID%GetControlID (int hint, FocusType focus, Rect position)
+GetCursorPixelPosition%GetCursorPixelPosition (Rect position, GUIContent content, int cursorStringIndex)
+GetCursorStringIndex%GetCursorStringIndex (Rect position, GUIContent content, Vector2 cursorPixelPosition)
+GetDirectoryName%GetDirectoryName (string path)
+GetDisconnectedPrefabParent%GetDisconnectedPrefabParent (Object source)
+GetDistanceToPoint%GetDistanceToPoint (Vector3 inPt)
+GetDragAndDropTitle%GetDragAndDropTitle (Object obj)
+GetEditorCurve%GetEditorCurve (AnimationClip clip, string relativePath, Type type, string propertyName)
+GetExtension%GetExtension (string path)
+GetFileName%GetFileName (string path)
+GetFileNameWithoutExtension%GetFileNameWithoutExtension (string path)
+GetFiltered%GetFiltered (Type type, SelectionMode mode)
+GetFloat%GetFloat (string propertyName)
+GetFloatValue%GetFloatValue (GameObject root, string relativePath, Type type, string propertyName, out float data)
+GetGenericData%GetGenericData (string type)
+GetGroundHit%GetGroundHit (out WheelHit hit)
+GetHandleSize%GetHandleSize (Vector3 position)
+GetHeights%GetHeights (int xBase, int yBase, int width, int height)
+GetInstanceID%GetInstanceID ()
+GetInt%GetInt (string key, int defaultValue = 0)
+GetInterpolatedNormal%GetInterpolatedNormal (float x, float y)
+GetKey%GetKey (string name)
+GetKeyDown%GetKeyDown (string name)
+GetKeyUp%GetKeyUp (string name)
+GetLastPing%GetLastPing (NetworkPlayer player)
+GetMatrix%GetMatrix (string propertyName)
+GetMouseButton%GetMouseButton (int button)
+GetMouseButtonDown%GetMouseButtonDown (int button)
+GetMouseButtonUp%GetMouseButtonUp (int button)
+GetObjectEnabled%GetObjectEnabled (Object target)
+GetPixel%GetPixel (int x, int y)
+GetPixelBilinear%GetPixelBilinear (float u, float v)
+GetPixels%GetPixels (int x, int y, int blockWidth, int blockHeight, int miplevel = 0)
+GetPoint%GetPoint (float distance)
+GetPointVelocity%GetPointVelocity (Vector3 worldPoint)
+GetPostprocessOrder%GetPostprocessOrder ()
+GetPrefabParent%GetPrefabParent (Object source)
+GetPrefabType%GetPrefabType (Object target)
+GetPropertyEditorTitle%GetPropertyEditorTitle (Object obj)
+GetRect%GetRect (float width, float height, params GUILayoutOption[] options)
+GetRelativePointVelocity%GetRelativePointVelocity (Vector3 relativePoint)
+GetRow%GetRow (int i)
+GetScreenRect%GetScreenRect (Camera camera = null)
+GetSide%GetSide (Vector3 inPt)
+GetStateObject%GetStateObject (Type t, int controlID)
+GetStreamProgressForLevel%GetStreamProgressForLevel (string levelName)
+GetString%GetString (string key, string defaultValue = "")
+GetStyle%GetStyle (string styleName)
+GetTag%GetTag (string tag, bool searchFallbacks, string defaultValue = "")
+GetTemporary%GetTemporary (int width, int height, int depthBuffer = 0, RenderTextureFormat format = RenderTextureFormat.ARGB32)
+GetTexture%GetTexture (string propertyName)
+GetTextureOffset%GetTextureOffset (string propertyName)
+GetTextureScale%GetTextureScale (string propertyName)
+GetTouch%GetTouch (index : int)
+GetTransforms%GetTransforms (SelectionMode mode)
+GetTriangles%GetTriangles (int submesh)
+GetTypeForControl%GetTypeForControl (int controlID)
+GetVector%GetVector (string propertyName)
+GetWindow%GetWindow (System.Type t, bool utility = false, string title = null)
+GetWindowWithRect%GetWindowWithRect (System.Type t, Rect rect, bool utility = false, string title = null)
+GizmoType%GizmoType.SelectedOrChild
+Gizmos%Gizmos
+Graphics%Graphics
+HandleUtility%HandleUtility
+Handles%Handles
+HasCharacter%HasCharacter (char c)
+HasHelpForObject%HasHelpForObject (Object obj)
+HasKey%HasKey (string key)
+HasNamedHelp%HasNamedHelp (string topic)
+HasObjectThumbnail%HasObjectThumbnail (Type objType)
+HasProperty%HasProperty (string propertyName)
+Hashtable%Hashtable
+HavePublicAddress%HavePublicAddress ()
+Height%Height (float height)
+Help%Help
+HideFlags%HideFlags.NotEditable
+HideInInspector%HideInInspector
+HingeJoint%HingeJoint
+HitTest%HitTest (Vector3 screenPosition, Camera camera = null)
+HorizontalScrollbar%HorizontalScrollbar (float value, float size, float leftValue, float rightValue, params GUILayoutOption[] options)
+HorizontalSlider%HorizontalSlider (float value, float leftValue, float rightValue, params GUILayoutOption[] options)
+HostData%HostData
+IconContent%IconContent (string name)
+IgnoreCollision%IgnoreCollision (Collider collider1, Collider collider2, bool ignore = true)
+ImagePosition%ImagePosition.TextOnly
+ImportAsset%ImportAsset (string path, ImportAssetOptions options = ImportAssetOptions.Default)
+ImportAssetOptions%ImportAssetOptions.TryFastReimportFromMetaData
+IncreaseLevel%IncreaseLevel ()
+Infinity%Infinity
+InitializeSecurity%InitializeSecurity ()
+InitializeServer%InitializeServer (int connections, int listenPort)
+Input%Input
+InspectorTitlebar%InspectorTitlebar (bool foldout, Object targetObj)
+Instantiate%Instantiate (Object prefab, Vector3 position, Quaternion rotation, int group)
+InstantiatePrefab%InstantiatePrefab (Object target)
+IntField%IntField (string label, int value, params GUILayoutOption[] options)
+IntSlider%IntSlider (string label, int value, int left, int right, string formatString)
+Internal_PickClosestGO%Internal_PickClosestGO (Camera cam, int layers, Vector2 position)
+IntersectRay%IntersectRay (Ray ray, out float distance)
+Inverse%Inverse (Quaternion rotation)
+InverseLerp%InverseLerp (float from, float to, float value)
+InverseTransformDirection%InverseTransformDirection (float x, float y, float z)
+InverseTransformPoint%InverseTransformPoint (float x, float y, float z)
+Invoke%Invoke (string methodName, float time)
+InvokeRepeating%InvokeRepeating (string methodName, float time, float repeatRate)
+IsChildOf%IsChildOf (Transform parent)
+IsCreated%IsCreated ()
+IsInvoking%IsInvoking (string methodName)
+IsPlaying%IsPlaying (string name)
+IsSleeping%IsSleeping ()
+Join%Join (string seperator)
+Joint%Joint
+JointDrive%JointDrive
+JointDriveMode%JointDriveMode.Velocity
+JointLimits%JointLimits
+JointMotor%JointMotor
+JointProjectionMode%JointProjectionMode.PositionOnly
+JointSpring%JointSpring
+KeyCode%KeyCode.Z
+KeyboardEvent%KeyboardEvent (string key)
+Keyframe%Keyframe (float time, float value, float inTangent, float outTangent)
+LINES%LINES
+Label%Label (string text, params GUILayoutOption[] options)
+LabelField%LabelField (string label, string label2, params GUILayoutOption[] options)
+LateUpdate%LateUpdate ()
+LayerMask%LayerMask
+LayerToName%LayerToName (int layer)
+LayerToString%LayerToString (int layer)
+Length%Length
+LensFlare%LensFlare
+Lerp%Lerp (float a, float b, float t)
+LerpAngle%LerpAngle (float a, float b, float t)
+Light%Light
+LightRenderMode%LightRenderMode.ForceVertex
+LightShadows%LightShadows.Soft
+LightType%LightType.Spot
+LightmapData%LightmapData
+LightmapSettings%LightmapSettings
+LineRenderer%LineRenderer
+Linear%Linear (float timeStart, float valueStart, float timeEnd, float valueEnd)
+Linecast%Linecast (Vector3 start, Vector3 end, out RaycastHit hitInfo, int layerMask = kDefaultRaycastLayers)
+Load%Load (string path, Type type)
+LoadAll%LoadAll (string path, Type type)
+LoadAllAssetsAtPath%LoadAllAssetsAtPath (string path)
+LoadAssetAtPath%LoadAssetAtPath (string assetPath, Type type)
+LoadIdentity%LoadIdentity ()
+LoadImage%LoadImage (byte[] data)
+LoadImageIntoTexture%LoadImageIntoTexture (Texture2D tex)
+LoadInternal%LoadInternal (out ScriptReloadProperties data)
+LoadLevel%LoadLevel (string name)
+LoadLevelAdditive%LoadLevelAdditive (string name)
+LoadMainAssetAtPath%LoadMainAssetAtPath (string assetPath)
+LoadOrtho%LoadOrtho ()
+LoadPixelMatrix%LoadPixelMatrix (float left, float right, float bottom, float top)
+LoadProjectionMatrix%LoadProjectionMatrix (Matrix4x4 mat)
+LoadRequired%LoadRequired (string path)
+LoadUnityWeb%LoadUnityWeb ()
+LockReloadAssemblies%LockReloadAssemblies ()
+Log%Log (object message, Object context)
+Log10%Log10 (float f)
+LogError%LogError (string warning, Object context = null)
+LogWarning%LogWarning (string warning, Object context = null)
+LookAt%LookAt (Vector3 worldPosition, Vector3 worldUp = Vector3.up)
+LookLikeControls%LookLikeControls (float labelWidth = 100, float fieldWidth = 70)
+LookLikeInspector%LookLikeInspector ()
+LookRotation%LookRotation (Vector3 forward, Vector3 upwards = Vector3.up)
+MakeSnapshot%MakeSnapshot (Object identifier, Object[] objects, string name)
+MakeUndoSnapshot%MakeUndoSnapshot ()
+MangleVariableName%MangleVariableName (string name)
+MasterServer%MasterServer
+MasterServerEvent%MasterServerEvent.RegistrationSucceeded
+Material%Material (string contents)
+MaterialPropertyBlock%MaterialPropertyBlock
+Mathf%Mathf
+Matrix4x4%Matrix4x4
+Max%Max (int a, int b)
+MaxHeight%MaxHeight (float maxHeight)
+MaxWidth%MaxWidth (float maxWidth)
+MenuCommand%MenuCommand (Object inContext, int inUserData)
+MenuItem%MenuItem (string itemName, bool isValidateFunction, int priority)
+Mesh%Mesh ()
+MeshCollider%MeshCollider
+MeshFilter%MeshFilter
+MeshRenderer%MeshRenderer
+Min%Min (int a, int b)
+MinHeight%MinHeight (float minHeight)
+MinMaxRect%MinMaxRect (float left, float top, float right, float bottom)
+MinWidth%MinWidth (float minWidth)
+ModelImporter%ModelImporter
+ModelImporterClipAnimation%ModelImporterClipAnimation
+ModelImporterGenerateAnimations%ModelImporterGenerateAnimations.None
+ModelImporterGenerateMaterials%ModelImporterGenerateMaterials.PerTexture
+MonoBehaviour%MonoBehaviour
+MonoScript%MonoScript
+MouseCursor%MouseCursor.Text
+Move%Move (Vector3 motion)
+MoveAsset%MoveAsset (string oldPath, string newPath)
+MoveAssetToTrash%MoveAssetToTrash (string path)
+MoveFileOrDirectory%MoveFileOrDirectory (string from, string to)
+MoveFocusToNextControl%MoveFocusToNextControl (bool moveForward)
+MoveKey%MoveKey (int index, Keyframe key)
+MoveKeyboardFocus%MoveKeyboardFocus (int ID, bool moveForward, bool sendToNextScriptIfNeeded)
+MoveNextAndScroll%MoveNextAndScroll (bool forward)
+MovePosition%MovePosition (Vector3 position)
+MoveRotation%MoveRotation (Quaternion rot)
+MovieImporter%MovieImporter
+MovieTexture%MovieTexture
+MultMatrix%MultMatrix (Matrix4x4 mat)
+MultiTexCoord%MultiTexCoord (int unit, Vector3 v)
+MultiTexCoord2%MultiTexCoord2 (int unit, float x, float y)
+MultiTexCoord3%MultiTexCoord3 (int unit, float x, float y, float z)
+MultiplyPoint%MultiplyPoint (Vector3 v)
+MultiplyPoint3x4%MultiplyPoint3x4 (Vector3 v)
+MultiplyVector%MultiplyVector (Vector3 v)
+NameToLayer%NameToLayer (string layerName)
+NegativeInfinity%NegativeInfinity
+Network%Network
+NetworkConnectionError%NetworkConnectionError.TooManyConnectedPlayers
+NetworkDisconnection%NetworkDisconnection.LostConnection
+NetworkMessageInfo%NetworkMessageInfo
+NetworkPeerType%NetworkPeerType.Server
+NetworkPlayer%NetworkPlayer (string ip, int port)
+NetworkStateSynchronization%NetworkStateSynchronization.Unreliable
+NetworkView%NetworkView
+NetworkViewID%NetworkViewID
+NewScene%NewScene ()
+NonSerialized%NonSerialized
+Normalize%Normalize ()
+Object%Object
+ObjectContent%ObjectContent (Object obj, System.Type type)
+ObjectField%ObjectField (string label, Object obj, System.Type objType, params GUILayoutOption[] options)
+ObjectNames%ObjectNames
+OnApplicationPause%OnApplicationPause (bool pause)
+OnApplicationQuit%OnApplicationQuit ()
+OnAssignMaterialModel%OnAssignMaterialModel (material : Material, Renderer renderer)
+OnBecameInvisible%OnBecameInvisible ()
+OnBecameVisible%OnBecameVisible ()
+OnCloseWindow%OnCloseWindow ()
+OnCollisionEnter%OnCollisionEnter (Collision collisionInfo)
+OnCollisionExit%OnCollisionExit (Collision collisionInfo)
+OnCollisionStay%OnCollisionStay (Collision collisionInfo)
+OnConnectedToServer%OnConnectedToServer ()
+OnControllerColliderHit%OnControllerColliderHit (ControllerColliderHit hit)
+OnDisable%OnDisable ()
+OnDisconnectedFromServer%OnDisconnectedFromServer (NetworkDisconnection mode)
+OnDrawGizmos%OnDrawGizmos ()
+OnDrawGizmosSelected%OnDrawGizmosSelected ()
+OnEnable%OnEnable ()
+OnFailedToConnect%OnFailedToConnect (NetworkConnectionError error)
+OnFailedToConnectToMasterServer%OnFailedToConnectToMasterServer (NetworkConnectionError error)
+OnFocus%OnFocus ()
+OnGUI%OnGUI ()
+OnHierarchyChange%OnHierarchyChange ()
+OnInspectorUpdate%OnInspectorUpdate ()
+OnJointBreak%OnJointBreak (float breakForce)
+OnLevelWasLoaded%OnLevelWasLoaded (int level)
+OnLostFocus%OnLostFocus ()
+OnMouseDown%OnMouseDown ()
+OnMouseDrag%OnMouseDrag ()
+OnMouseEnter%OnMouseEnter ()
+OnMouseExit%OnMouseExit ()
+OnMouseOver%OnMouseOver ()
+OnMouseUp%OnMouseUp ()
+OnNetworkInstantiate%OnNetworkInstantiate (NetworkMessageInfo info)
+OnParticleCollision%OnParticleCollision (GameObject other)
+OnPlayerConnected%OnPlayerConnected (NetworkPlayer player)
+OnPlayerDisconnected%OnPlayerDisconnected (NetworkPlayer player)
+OnPostRender%OnPostRender ()
+OnPostprocessAllAssets%OnPostprocessAllAssets (string[] importedAssets, string[] deletedAssets, string[] movedAssets, string[] movedFromPath)
+OnPostprocessAudio%OnPostprocessAudio (AudioClip clip)
+OnPostprocessModel%OnPostprocessModel (GameObject root)
+OnPostprocessTexture%OnPostprocessTexture (Texture2D texture)
+OnPreCull%OnPreCull ()
+OnPreRender%OnPreRender ()
+OnPreprocessAudio%OnPreprocessAudio ()
+OnPreprocessModel%OnPreprocessModel ()
+OnPreprocessTexture%OnPreprocessTexture ()
+OnProjectChange%OnProjectChange ()
+OnRenderImage%OnRenderImage (RenderTexture source, RenderTexture destination)
+OnRenderObject%OnRenderObject (int queueIndex)
+OnSelectionChange%OnSelectionChange ()
+OnSerializeNetworkView%OnSerializeNetworkView (BitStream stream, NetworkMessageInfo info)
+OnServerInitialized%OnServerInitialized ()
+OnTriggerEnter%OnTriggerEnter (Collider other)%OnTriggerEnter is called when the Collider other enters the trigger
+OnTriggerExit%OnTriggerExit (Collider other)%OnTriggerExit is called when the Collider other has stopped touching the trigger
+OnTriggerStay%OnTriggerStay (Collider other)%OnTriggerStay is called once per frame for every Collider other that is touching the trigger
+OnWillRenderObject%OnWillRenderObject ()
+OnWizardCreate%OnWizardCreate ()
+OnWizardOtherButton%OnWizardOtherButton ()
+OnWizardUpdate%OnWizardUpdate ()
+Open%Open (text : string, keyboardType : iPhoneKeyboardType = iPhoneKeyboardType.Default, autocorrection : bool = true, multiline : bool = false, secure : bool = false, alert : bool = false, textPlaceholder : string = "")
+OpenAsset%OpenAsset (int instanceID, int lineNumber = -1)
+OpenFilePanel%OpenFilePanel (string title, string directory, string extension)
+OpenScene%OpenScene (string path)
+OpenSceneAdditive%OpenSceneAdditive (string path)
+OpenURL%OpenURL (string url)
+Optimize%Optimize ()
+Ortho%Ortho (float left, float right, float bottom, float top, float zNear, float zFar)
+OrthoNormalize%OrthoNormalize (ref Vector3 normal, ref Vector3 tangent, ref Vector3 binormal)
+OverlapSphere%OverlapSphere (Vector3 position, float radius, int layerMask = kAllLayers)
+PI%PI
+PackTextures%PackTextures ( Texture2D[] textures, int padding, int maximumAtlasSize = 2048 )
+Particle%Particle
+ParticleAnimator%ParticleAnimator
+ParticleEmitter%ParticleEmitter
+ParticleRenderMode%ParticleRenderMode.VerticalBillboard
+ParticleRenderer%ParticleRenderer
+PasswordField%PasswordField (string password, char maskChar, params GUILayoutOption[] options)
+Path%Path
+Pause%Pause ()
+PerformRedo%PerformRedo ()
+PerformUndo%PerformUndo ()
+Perspective%Perspective (float fov, float aspect, float zNear, float zFar)
+PhysicMaterial%PhysicMaterial (string name)
+PhysicMaterialCombine%PhysicMaterialCombine.Multiply
+Physics%Physics
+PickGameObject%PickGameObject (Vector2 position)
+Ping%Ping (string address)
+PingObject%PingObject (Object obj)
+PingPong%PingPong (float t, float length)
+Plane%Plane (Vector3 inNormal, float d)
+Play%Play (string animation, PlayMode mode = PlayMode.StopSameLayer)
+PlayClipAtPoint%PlayClipAtPoint (AudioClip clip, Vector3 position, float volume = 1.0F)
+PlayMode%PlayMode.StopSameLayer
+PlayMovie%PlayMovie (path : string, bgColor : Color, controlMode : iPhoneMovieControlMode = iPhoneMovieControlMode.Full, scalingMode : iPhoneMovieScalingMode = iPhoneMovieScalingMode.AspectFit)
+PlayMovieURL%PlayMovieURL (url : string, bgColor : Color, controlMode : iPhoneMovieControlMode = iPhoneMovieControlMode.Full, scalingMode : iPhoneMovieScalingMode = iPhoneMovieScalingMode.AspectFit)
+PlayOneShot%PlayOneShot (AudioClip clip, float volumeScale = 1.0F)
+PlayQueued%PlayQueued (string animation, QueueMode queue = QueueMode.CompleteOthers, PlayMode mode = PlayMode.StopSameLayer)
+PlayerPrefs%PlayerPrefs
+PlayerPrefsException%PlayerPrefsException
+PollHostList%PollHostList ()
+Pop%Pop ()
+PopAssetDependencies%PopAssetDependencies ()
+PopCamera%PopCamera (Camera camera)
+PopMatrix%PopMatrix ()
+Popup%Popup (string label, int selected, string[] popupValues, params GUILayoutOption[] options)
+PositionHandle%PositionHandle (Vector3 position, ref Quaternion rotation)
+Pow%Pow (float f, float p)
+PrefabType%PrefabType.PrefabInstance
+PrefixLabel%PrefixLabel (string label, GUIStyle followingStyle, GUIStyle labelStyle)
+PrepareStartDrag%PrepareStartDrag ()
+PrimitiveType%PrimitiveType.Sphere
+Project%Project (Vector4 a, Vector4 b)
+ProjectPointLine%ProjectPointLine (Vector3 point, Vector3 lineStart, Vector3 lineEnd)
+Projector%Projector
+PropertyToID%PropertyToID (string name)
+Push%Push (object value)
+PushAssetDependencies%PushAssetDependencies ()
+PushCamera%PushCamera (Camera camera)
+PushMatrix%PushMatrix ()
+PushUndo%PushUndo ()
+QUADS%QUADS
+QualityLevel%QualityLevel.Simple
+QualitySettings%QualitySettings
+Quaternion%Quaternion (float x, float y, float z, float w)
+QueryStateObject%QueryStateObject (Type t, int controlID)
+QueueGameViewInputEvent%QueueGameViewInputEvent (Event evt)
+QueueMode%QueueMode.PlayNow
+Quit%Quit ()
+RPC%RPC (string name, RPCMode mode, params object[] args)
+RPCMode%RPCMode.Server
+Rad2Deg%Rad2Deg
+Random%Random
+Range%Range (int min, int max)
+Ray%Ray (Vector3 origin, Vector3 direction)
+RaySnap%RaySnap (Ray ray)
+Raycast%Raycast (Vector3 origin, Vector3 direction, out RaycastHit hitInfo, float distance = Mathf.Infinity, int layerMask = kDefaultRaycastLayers)
+RaycastAll%RaycastAll (Vector3 origin, Vector3 direction, float distance = Mathf.Infinity, int layermask = kDefaultRaycastLayers)
+RaycastCollider%RaycastCollider
+RaycastHit%RaycastHit
+ReadPixels%ReadPixels (Rect source, int destX, int destY, bool recalculateMipMaps = true)
+RecalculateBounds%RecalculateBounds ()
+RecalculateNormals%RecalculateNormals ()
+ReconnectToLastPrefab%ReconnectToLastPrefab (GameObject go)
+Rect%Rect (float left, float top, float width, float height)
+RectField%RectField (string label, Rect value, params GUILayoutOption[] options)
+RectOffset%RectOffset
+Reflect%Reflect (Vector3 inDirection, Vector3 inNormal)
+Refresh%Refresh (ImportAssetOptions options = ImportAssetOptions.Default)
+RegisterHost%RegisterHost (string gameTypeName, string gameName, string comment = "")
+RegisterSceneUndo%RegisterSceneUndo (string name)
+RegisterUndo%RegisterUndo (Object o, string name)
+Release%Release ()
+ReleaseTemporary%ReleaseTemporary (RenderTexture temp)
+Remove%Remove (object key)
+RemoveAt%RemoveAt (int index)
+RemoveClip%RemoveClip (string clipName)
+RemoveKey%RemoveKey (int index)
+RemoveRPCs%RemoveRPCs (NetworkViewID viewID)
+RemoveRPCsInGroup%RemoveRPCsInGroup (int group)
+Render%Render ()
+RenderBeforeQueues%RenderBeforeQueues (params int[] args)
+RenderGameViewCameras%RenderGameViewCameras (Rect rect, bool stats)
+RenderSettings%RenderSettings
+RenderTexture%RenderTexture (int width, int height, int depth)
+RenderTextureFormat%RenderTextureFormat.Depth
+RenderToCubemap%RenderToCubemap (RenderTexture cubemap, int faceMask = 63)
+RenderWithShader%RenderWithShader (Shader shader, string replacementTag)
+Renderer%Renderer
+Repaint%Repaint ()
+Repeat%Repeat (float t, float length)
+RepeatButton%RepeatButton (string text, params GUILayoutOption[] options)
+ReplacePrefab%ReplacePrefab (GameObject go, Object targetPrefab, ReplacePrefabOptions options = ReplacePrefabOptions.Default)
+ReplacePrefabOptions%ReplacePrefabOptions.ReplaceNameBased
+RequestHostList%RequestHostList (string gameTypeName)
+RequireComponent%RequireComponent (Type requiredComponent, Type requiredComponent2, Type requiredComponent3)
+Reset%Reset ()
+ResetAspect%ResetAspect ()
+ResetInputAxes%ResetInputAxes ()
+ResetProjectionMatrix%ResetProjectionMatrix ()
+ResetReplacementShader%ResetReplacementShader ()
+ResetWorldToCameraMatrix%ResetWorldToCameraMatrix ()
+Resize%Resize (int width, int height, TextureFormat format, bool hasMipMap)
+Resolution%Resolution
+Resources%Resources
+Restore%Restore (Camera dest)
+RestoreSnapshot%RestoreSnapshot ()
+Reverse%Reverse ()
+Rewind%Rewind (string name)
+Rigidbody%Rigidbody
+RigidbodyInterpolation%RigidbodyInterpolation.None
+Rotate%Rotate (float xAngle, float yAngle, float zAngle, Space relativeTo = Space.Self)
+RotateAround%RotateAround (Vector3 point, Vector3 axis, float angle)
+RotateAroundPivot%RotateAroundPivot (float angle, Vector2 pivotPoint)
+RotateTowards%RotateTowards (Vector3 from, Vector3 to, float maxRadiansDelta, float maxMagnitudeDelta)
+RotationDriveMode%RotationDriveMode.XYAndZ
+RotationHandle%RotationHandle (Quaternion rotation, Vector3 position)
+Round%Round (float f)
+RoundToInt%RoundToInt (float f)
+RuntimePlatform%RuntimePlatform.WindowsWebPlayer
+SameSide%SameSide (Vector3 inPt0, Vector3 inPt1)
+Sample%Sample ()
+SampleAnimation%SampleAnimation (AnimationClip animation, float time)
+SampleHeight%SampleHeight (Vector3 worldPosition)
+SaveAssets%SaveAssets ()
+SaveCurrentSceneIfUserWantsTo%SaveCurrentSceneIfUserWantsTo ()
+SaveFilePanel%SaveFilePanel (string title, string directory, string defaultName, string extension)
+SaveScene%SaveScene (string path)
+SaveSnapshot%SaveSnapshot ()
+Scale%Scale (Vector4 scale)
+ScaleAroundPivot%ScaleAroundPivot (Vector2 scale, Vector2 pivotPoint)
+ScaleHandle%ScaleHandle (Vector3 scale, Vector3 position, Quaternion rotation, float size)
+ScaleMode%ScaleMode.StretchToFill
+ScaleSlider%ScaleSlider (float scale, Vector3 position, Vector3 direction, float size, float snap)
+ScaleValueHandle%ScaleValueHandle (float value, Vector3 position, Quaternion rotation, float size, Handles.DrawCapFunction capFunc, float snap)
+Screen%Screen
+ScreenPointToRay%ScreenPointToRay (Vector3 position)
+ScreenToGUIPoint%ScreenToGUIPoint (Vector2 screenPoint )
+ScreenToViewportPoint%ScreenToViewportPoint (Vector3 position)
+ScreenToWorldPoint%ScreenToWorldPoint (Vector3 position)
+ScriptReloadProperties%ScriptReloadProperties
+ScriptableObject%ScriptableObject
+ScriptableWizard%ScriptableWizard
+ScrollTo%ScrollTo (Rect position)
+Selection%Selection
+SelectionGrid%SelectionGrid (int selected, string[] texts, int xCount, params GUILayoutOption[] options)
+SelectionMode%SelectionMode.Unfiltered
+SendEvent%SendEvent (Event e)
+SendMessage%SendMessage (string methodName, object value = null, SendMessageOptions options = SendMessageOptions.RequireReceiver)%Calls the method named methodName on every MonoBehaviour in this game object
+SendMessageOptions%SendMessageOptions.DontRequireReceiver%No receiver is required for SendMessage
+SendMessageOptions%SendMessageOptions.RequireReceiver%A receiver is required for SendMessage
+SendMessageUpwards%SendMessageUpwards (string methodName, object value = null, SendMessageOptions options = SendMessageOptions.RequireReceiver)%Calls the method named methodName on every MonoBehaviour in this game object and on every ancestor of the behaviour
+Separator%Separator ()
+Serializable%Serializable
+Serialize%Serialize (ref short value)
+Set3Points%Set3Points (Vector3 a, Vector3 b, Vector3 c)
+SetActiveRecursively%SetActiveRecursively (bool state)
+SetAnimationEvents%SetAnimationEvents (AnimationClip clip, AnimationEvent[] events)
+SetBool%SetBool (string key, bool value)
+SetBorderColor%SetBorderColor (Color color)
+SetCamera%SetCamera (Rect position, Camera camera)
+SetColor%SetColor (string propertyName, Color color)
+SetColors%SetColors (Color start, Color end)
+SetColumn%SetColumn (int i, Vector4 v)
+SetCurve%SetCurve (string relativePath, Type type, string propertyName, AnimationCurve curve)
+SetDensity%SetDensity (float density)
+SetDirty%SetDirty (Object target)
+SetEditorCurve%SetEditorCurve (AnimationClip clip, string relativePath, Type type, string propertyName, AnimationCurve curve)
+SetFloat%SetFloat (string propertyName, float value)
+SetFromToRotation%SetFromToRotation (Vector3 fromDirection, Vector3 toDirection)
+SetGenericData%SetGenericData (string type, object data)
+SetGlobalColor%SetGlobalColor (string propertyName, Color color)
+SetGlobalFloat%SetGlobalFloat (string propertyName, float value)
+SetGlobalMatrix%SetGlobalMatrix (string propertyName, Matrix4x4 mat)
+SetGlobalShaderProperty%SetGlobalShaderProperty (string propertyName)
+SetGlobalTexture%SetGlobalTexture (string propertyName, Texture tex)
+SetGlobalVector%SetGlobalVector (string propertyName, Vector4 vec)
+SetHeights%SetHeights (int xBase, int yBase, float[,] heights)
+SetInt%SetInt (string key, int value)
+SetLevelPrefix%SetLevelPrefix (int prefix)
+SetLookRotation%SetLookRotation (Vector3 view, Vector3 up = Vector3.up)
+SetMatrix%SetMatrix (string propertyName, Matrix4x4 matrix)
+SetMinMax%SetMinMax (Vector3 min, Vector3 max)
+SetNeighbors%SetNeighbors (Terrain left, Terrain top, Terrain right, Terrain bottom)
+SetNextControlName%SetNextControlName (string name)
+SetNormalAndPosition%SetNormalAndPosition (Vector3 inNormal, Vector3 inPoint)
+SetObjectEnabled%SetObjectEnabled (Object target, bool enabled)
+SetPass%SetPass (int pass)
+SetPixel%SetPixel (int x, int y, Color color)
+SetPixels%SetPixels (int x, int y, int blockWidth, int blockHeight, Color[] colors, int miplevel = 0)
+SetPosition%SetPosition (int index, Vector3 position)
+SetReceivingEnabled%SetReceivingEnabled (NetworkPlayer player, int group, bool enabled)
+SetReplacementShader%SetReplacementShader (Shader shader, string replacementTag)
+SetResolution%SetResolution (int width, int height, bool fullscreen, int preferredRefreshRate = 0)
+SetRevertBackfacing%SetRevertBackfacing (bool revertBackFaces)
+SetRow%SetRow (int i, Vector4 v)
+SetScope%SetScope (NetworkPlayer player, bool relevancy)
+SetSendingEnabled%SetSendingEnabled (int group, bool enabled)
+SetString%SetString (string key, string value)
+SetTRS%SetTRS (Vector3 pos, Quaternion q, Vector3 s)
+SetTexture%SetTexture (string propertyName, Texture texture)
+SetTextureOffset%SetTextureOffset (string propertyName, Vector2 offset)
+SetTextureScale%SetTextureScale (string propertyName, Vector2 scale)
+SetTriangles%SetTriangles (int[] triangles, int submesh)
+SetUndoInfo%SetUndoInfo (string name, Object[] objectsToUndo)
+SetVector%SetVector (string propertyName, Vector4 vector)
+SetVertexCount%SetVertexCount (int count)
+SetWidth%SetWidth (float start, float end)
+Shader%Shader
+Shift%Shift ()
+Show%Show ()
+ShowHelpForObject%ShowHelpForObject (Object obj)
+ShowNamedHelp%ShowNamedHelp (string topic)
+ShowUtility%ShowUtility ()
+Sign%Sign (float f)
+SimpleMove%SimpleMove (Vector3 speed)
+Sin%Sin (float f)
+SingleLayerField%SingleLayerField (string label, int layer, params GUILayoutOption[] options)
+SkinQuality%SkinQuality.Bone4
+SkinnedMeshRenderer%SkinnedMeshRenderer
+Skybox%Skybox
+Sleep%Sleep ()
+Slerp%Slerp (Vector3 from, Vector3 to, float t)
+Slider%Slider (string label, float value, float left, float right, string formatString)
+SmartResetGameObjectToPrefabState%SmartResetGameObjectToPrefabState (GameObject go)
+SmartResetToPrefabState%SmartResetToPrefabState (Object obj)
+SmoothDamp%SmoothDamp (float current, float target, ref float currentVelocity, float smoothTime, float maxSpeed = Mathf.Infinity, float deltaTime = Time.deltaTime)
+SmoothDampAngle%SmoothDampAngle (float current, float target, ref float currentVelocity, float smoothTime, float maxSpeed = Mathf.Infinity, float deltaTime = Time.deltaTime)
+SmoothStep%SmoothStep (float from, float to, float t)
+SmoothTangents%SmoothTangents (int index, float weight)
+SoftJointLimit%SoftJointLimit
+Sort%Sort ()
+Space%Space.World
+SphereCollider%SphereCollider
+SpringJoint%SpringJoint
+SqrDistance%SqrDistance (Vector3 point)
+Sqrt%Sqrt (float f)
+Start%Start ()%Start is called just before any of the Update methods is called the first time
+StartAssetEditing%StartAssetEditing ()
+StartCoroutine%StartCoroutine (string methodName, object value = null)
+StartDrag%StartDrag (string title)
+StartLocationServiceUpdates%StartLocationServiceUpdates (desiredAccuracyInMeters : float = 10f, updateDistanceInMeters : float = 10f)
+Step%Step ()
+Stop%Stop (string name)%Stopping an animation also Rewinds it to the Start. Stops an animation named name if supplied.
+StopAllCoroutines%StopAllCoroutines ()
+StopAssetEditing%StopAssetEditing ()
+StopCoroutine%StopCoroutine (string methodName)
+StopLocationServiceUpdates%StopLocationServiceUpdates ()
+StoreInternal%StoreInternal (ScriptReloadProperties data)
+String%String
+SupportsRenderTextureFormat%SupportsRenderTextureFormat (RenderTextureFormat format)
+SyncLayer%SyncLayer (int layer)
+SystemInfo%SystemInfo
+TRIANGLES%TRIANGLES
+TRIANGLE_STRIP%TRIANGLE_STRIP
+TRS%TRS (Vector3 pos, Quaternion q, Vector3 s)
+TagField%TagField (string label, string tag, params GUILayoutOption[] options)
+Tan%Tan (float f)
+Terrain%Terrain
+TerrainCollider%TerrainCollider
+TerrainData%TerrainData
+TerrainLighting%TerrainLighting.Vertex
+TestConnection%TestConnection (bool forceTest = false)
+TestConnectionNAT%TestConnectionNAT ()
+TestPlanesAABB%TestPlanesAABB (Plane[] planes, Bounds bounds)
+TexCoord%TexCoord (Vector3 v)
+TexCoord2%TexCoord2 (float x, float y)
+TexCoord3%TexCoord3 (float x, float y, float z)
+TextAlignment%TextAlignment.Right
+TextAnchor%TextAnchor.UpperRight
+TextArea%TextArea (string text, params GUILayoutOption[] options)
+TextAsset%TextAsset
+TextClipping%TextClipping.Overflow
+TextContent%TextContent (string name)
+TextField%TextField (string text, params GUILayoutOption[] options)
+TextMesh%TextMesh
+Texture%Texture
+Texture2D%Texture2D (int width, int height, TextureFormat format, bool mipmap)
+TextureFormat%TextureFormat.RGB24
+TextureImporter%TextureImporter
+TextureImporterFormat%TextureImporterFormat.RGB24
+TextureImporterGenerateCubemap%TextureImporterGenerateCubemap.Spheremap
+TextureImporterMipFilter%TextureImporterMipFilter.KaiserFilter
+TextureImporterNPOTScale%TextureImporterNPOTScale.ToSmaller
+TextureImporterNormalFilter%TextureImporterNormalFilter.Standard
+TextureWrapMode%TextureWrapMode.Repeat
+Time%Time
+ToAngleAxis%ToAngleAxis (out float angle, out Vector3 axis)
+ToString%ToString ()
+Toggle%Toggle (string label, bool value, params GUILayoutOption[] options)
+Toolbar%Toolbar (int selected, string[] texts, params GUILayoutOption[] options)
+TrailRenderer%TrailRenderer
+Transform%Transform
+TransformDirection%TransformDirection (float x, float y, float z)
+TransformPoint%TransformPoint (float x, float y, float z)
+Translate%Translate (float x, float y, float z, Transform relativeTo)
+TrueTypeFontImporter%TrueTypeFontImporter
+UnEscapeURL%UnEscapeURL (string s, Encoding e=System.Text.Encoding.UTF8)
+Undo%Undo
+UnfocusWindow%UnfocusWindow ()
+Unload%Unload (bool unloadAllLoadedObjects)
+UnloadAsset%UnloadAsset (Object asset)
+UnloadLoadedObjects%UnloadLoadedObjects ()
+UnlockReloadAssemblies%UnlockReloadAssemblies ()
+UnregisterHost%UnregisterHost ()
+Unshift%Unshift (object newElement, object optionalElement)
+Update%Update ()%Update is called every frame, if the MonoBehaviour is enabled
+Use%Use ()
+ValidateMoveAsset%ValidateMoveAsset (string oldPath, string newPath)
+Vector2%Vector2 (float x, float y)
+Vector2Field%Vector2Field (string label, Vector2 value, params GUILayoutOption[] options)
+Vector3%Vector3 (float x, float y, float z)
+Vector3Field%Vector3Field (string label, Vector3 value, params GUILayoutOption[] options)
+Vector4%Vector4 (float x, float y, float z, float w)
+Vector4Field%Vector4Field (string label, Vector4 value, params GUILayoutOption[] options)
+Vertex%Vertex (Vector3 v)
+Vertex3%Vertex3 (float x, float y, float z)
+VerticalScrollbar%VerticalScrollbar (float value, float size, float topValue, float bottomValue, params GUILayoutOption[] options)
+VerticalSlider%VerticalSlider (float value, float leftValue, float rightValue, params GUILayoutOption[] options)
+Vibrate%Vibrate ()
+Viewport%Viewport (Rect pixelRect)
+ViewportPointToRay%ViewportPointToRay (Vector3 position)
+ViewportToScreenPoint%ViewportToScreenPoint (Vector3 position)
+ViewportToWorldPoint%ViewportToWorldPoint (Vector3 position)
+WWW%WWW (string url, byte[] postData, Hashtable headers )
+WWWForm%WWWForm ()
+WaitForEndOfFrame%WaitForEndOfFrame
+WaitForFixedUpdate%WaitForFixedUpdate
+WaitForSeconds%WaitForSeconds (float seconds)
+WakeUp%WakeUp ()
+WheelCollider%WheelCollider
+WheelFrictionCurve%WheelFrictionCurve
+WheelHit%WheelHit
+Width%Width (float width)
+Window%Window (int id, Rect screenRect, GUI.WindowFunction func, string text, params GUILayoutOption[ ] options)
+WorldPointToSizedRect%WorldPointToSizedRect (Vector3 position, GUIContent content, GUIStyle style)
+WorldToGUIPoint%WorldToGUIPoint (Vector3 world)
+WorldToScreenPoint%WorldToScreenPoint (Vector3 position)
+WorldToViewportPoint%WorldToViewportPoint (Vector3 position)
+WrapMode%WrapMode.PingPong
+YieldInstruction%YieldInstruction
+a%a
+absoluteURL%absoluteURL
+acceleration%acceleration
+actionKey%actionKey
+active%active
+activeControlID%activeControlID
+activeGameObject%activeGameObject
+activeObject%activeObject
+activeTerrain%activeTerrain
+activeTransform%activeTransform
+addCollider%addCollider
+alignment%alignment
+allCameras%allCameras
+alt%alt
+ambientLight%ambientLight
+anchor%anchor
+angle%angle
+angularDrag%angularDrag
+angularVelocity%angularVelocity
+angularXDrive%angularXDrive
+angularXMotion%angularXMotion
+angularYLimit%angularYLimit
+angularYMotion%angularYMotion
+angularYZDrive%angularYZDrive
+angularZLimit%angularZLimit
+angularZMotion%angularZMotion
+animatePhysics%animatePhysics
+animation%animation
+animationState%animationState
+anisoLevel%anisoLevel
+anyKey%anyKey
+anyKeyDown%anyKeyDown
+applicationContentsPath%applicationContentsPath
+aspect%aspect
+aspectRatio%aspectRatio
+assetBundle%assetBundle
+assetImporter%assetImporter
+assetPath%assetPath
+asymptoteSlip%asymptoteSlip
+asymptoteValue%asymptoteValue
+attachedRigidbody%attachedRigidbody
+attenuate%attenuate
+audio%audio
+audioClip%audioClip
+autoRepaintOnSceneChange%autoRepaintOnSceneChange
+autodestruct%autodestruct
+axis%axis
+b%b
+background%background
+backgroundColor%backgroundColor
+bakeIK%bakeIK
+barycentricCoordinate%barycentricCoordinate
+basemapDistance%basemapDistance
+bindposes%bindposes
+black%black
+blendMode%blendMode
+blue%blue
+boneIndex0%boneIndex0
+boneIndex1%boneIndex1
+boneIndex2%boneIndex2
+boneIndex3%boneIndex3
+boneWeights%boneWeights
+bones%bones
+border%border
+borderMipmap%borderMipmap
+bottom%bottom
+bounceCombine%bounceCombine
+bounceThreshold%bounceThreshold
+bouncyness%bouncyness
+bounds%bounds
+box%box
+brakeTorque%brakeTorque
+breakForce%breakForce
+breakTorque%breakTorque
+brightness%brightness
+button%button
+bytes%bytes
+camera%camera
+cameraToWorldMatrix%cameraToWorldMatrix
+cameraVelocityScale%cameraVelocityScale
+capsLock%capsLock
+captureFramerate%captureFramerate
+castShadows%castShadows
+center%center
+centerOfMass%centerOfMass
+changed%changed
+channels%channels
+character%character
+childCount%childCount
+clear%clear
+clearFlags%clearFlags
+clickCount%clickCount
+clip%clip
+clipAnimations%clipAnimations
+clipping%clipping
+collider%collider
+collisionFlags%collisionFlags
+color%color
+colorAnimation%colorAnimation
+colors%colors
+command%command
+comment%comment
+compressionBitrate%compressionBitrate
+configuredInWorldSpace%configuredInWorldSpace
+connectedBody%connectedBody
+connectedPlayers%connectedPlayers
+connectionTesterIP%connectionTesterIP
+connectionTesterPort%connectionTesterPort
+connections%connections
+constantForce%constantForce
+contacts%contacts
+contentColor%contentColor
+contentOffset%contentOffset
+context%context
+control%control
+controller%controller
+convertToNormalmap%convertToNormalmap
+convex%convex
+cookie%cookie
+correctGamma%correctGamma
+cullingMask%cullingMask
+current%current
+currentLevel%currentLevel
+currentResolution%currentResolution
+currentScene%currentScene
+cursorColor%cursorColor
+cursorFlashSpeed%cursorFlashSpeed
+curve%curve
+customStyles%customStyles = new GUIStyle[1]
+cyan%cyan
+damper%damper
+damping%damping
+data%data
+dataPath%dataPath
+decompressOnLoad%decompressOnLoad
+dedicatedServer%dedicatedServer
+delta%delta
+deltaTime%deltaTime
+depth%depth
+detailObjectDistance%detailObjectDistance
+detectCollisions%detectCollisions
+direction%direction
+distance%distance
+doesAnimateColor%doesAnimateColor
+doubleClickSelectsWord%doubleClickSelectsWord
+drag%drag
+duration%duration
+dynamicFriction%dynamicFriction
+dynamicFriction2%dynamicFriction2
+emit%emit
+emitterVelocityScale%emitterVelocityScale
+enabled%enabled
+endWidth%endWidth
+energy%energy
+error%error
+errorString%errorString
+eulerAngles%eulerAngles
+extents%extents
+externalIP%externalIP
+externalPort%externalPort
+extremumSlip%extremumSlip
+extremumValue%extremumValue
+fadeout%fadeout
+farClipPlane%farClipPlane
+fieldOfView%fieldOfView
+filterMode%filterMode
+firstFrame%firstFrame
+fixedDeltaTime%fixedDeltaTime
+fixedHeight%fixedHeight
+fixedTime%fixedTime
+fixedWidth%fixedWidth
+flare%flare
+flareStrength%flareStrength
+focused%focused
+focusedWindow%focusedWindow
+fog%fog
+fogColor%fogColor
+fogDensity%fogDensity
+font%font
+fontRenderMode%fontRenderMode
+fontSize%fontSize
+fontTextureCase%fontTextureCase
+force%force
+format%format
+forward%forward
+forwardDir%forwardDir
+forwardFriction%forwardFriction
+forwardSlip%forwardSlip
+frameCount%frameCount
+frameRate%frameRate
+freeSpin%freeSpin
+freezeRotation%freezeRotation
+frequency%frequency
+frictionCombine%frictionCombine
+frictionDirection2%frictionDirection2
+fullScreen%fullScreen
+functionKey%functionKey
+functionName%functionName
+g%g
+gameName%gameName
+gameObject%gameObject
+gameObjects%gameObjects
+gameType%gameType
+generateAnimations%generateAnimations
+generateCubemap%generateCubemap
+generateMaterials%generateMaterials
+globalMaximumLOD%globalMaximumLOD
+globalScale%globalScale
+graphicsDeviceName%graphicsDeviceName
+graphicsDeviceVendor%graphicsDeviceVendor
+graphicsDeviceVersion%graphicsDeviceVersion
+graphicsMemorySize%graphicsMemorySize
+gravity%gravity
+gray%gray
+grayscale%grayscale
+grayscaleToAlpha%grayscaleToAlpha
+green%green
+grey%grey
+group%group
+guiText%guiText
+guiTexture%guiTexture
+haloStrength%haloStrength
+handleMaterial%handleMaterial
+headers%headers
+height%height
+heightmapHeight%heightmapHeight
+heightmapMaximumLOD%heightmapMaximumLOD
+heightmapPixelError%heightmapPixelError
+heightmapScale%heightmapScale
+heightmapWidth%heightmapWidth
+helpString%helpString
+hideFlags%hideFlags
+highAngularXLimit%highAngularXLimit
+highTwistLimit%highTwistLimit
+hingeJoint%hingeJoint
+horizontal%horizontal
+horizontalScrollbar%horizontalScrollbar
+horizontalScrollbarLeftButton%horizontalScrollbarLeftButton
+horizontalScrollbarRightButton%horizontalScrollbarRightButton
+horizontalScrollbarThumb%horizontalScrollbarThumb
+horizontalSlider%horizontalSlider
+horizontalSliderThumb%horizontalSliderThumb
+hover%hover
+identity%identity
+ignoreLayers%ignoreLayers
+ignoreListenerVolume%ignoreListenerVolume
+image%image
+imagePosition%imagePosition
+inTangent%inTangent
+incomingPassword%incomingPassword
+inertiaTensor%inertiaTensor
+inertiaTensorRotation%inertiaTensorRotation
+inputString%inputString
+insideUnitCircle%insideUnitCircle
+insideUnitSphere%insideUnitSphere
+intensity%intensity
+interpolation%interpolation
+inverse%inverse
+ip%ip
+ipAddress%ipAddress
+isClient%isClient
+isCubemap%isCubemap
+isDebugBuild%isDebugBuild
+isDone%isDone
+isEditor%isEditor
+isGrounded%isGrounded
+isIdentity%isIdentity
+isKey%isKey
+isKinematic%isKinematic
+isLoadingLevel%isLoadingLevel
+isMessageQueueRunning%isMessageQueueRunning
+isMine%isMine
+isMouse%isMouse
+isPaused%isPaused
+isPlaying%isPlaying
+isPlayingOrWillEnterExitPlaymode%isPlayingOrWillEnterExitPlaymode
+isPowerOfTwo%isPowerOfTwo
+isReading%isReading
+isReadyToPlay%isReadyToPlay
+isServer%isServer
+isSupported%isSupported
+isTrigger%isTrigger
+isValid%isValid
+isWriting%isWriting
+keyCode%keyCode
+keyboardControl%keyboardControl
+keys%keys
+label%label
+lastFrame%lastFrame
+layer%layer
+left%left
+length%length
+lengthScale%lengthScale
+levelCount%levelCount
+light%light
+lighting%lighting
+lightmap%lightmap
+lightmapIndex%lightmapIndex
+lightmapTilingOffset%lightmapTilingOffset
+lightmaps%lightmaps
+limit%limit
+limits%limits
+lineHeight%lineHeight
+lineSpacing%lineSpacing
+linearLimit%linearLimit
+loadedLevel%loadedLevel
+loadedLevelName%loadedLevelName
+localEulerAngles%localEulerAngles
+localPosition%localPosition
+localRotation%localRotation
+localRotationAxis%localRotationAxis
+localScale%localScale
+localToWorldMatrix%localToWorldMatrix
+localVelocity%localVelocity
+lockCursor%lockCursor
+loop%loop
+lossyScale%lossyScale
+lowAngularXLimit%lowAngularXLimit
+lowTwistLimit%lowTwistLimit
+magenta%magenta
+magnitude%magnitude
+main%main
+mainAsset%mainAsset
+mainTexture%mainTexture
+mainTextureOffset%mainTextureOffset
+mainTextureScale%mainTextureScale
+margin%margin
+mass%mass
+material%material
+materials%materials
+matrix%matrix
+max%max
+maxAngularVelocity%maxAngularVelocity
+maxBounce%maxBounce
+maxConnections%maxConnections
+maxDistance%maxDistance
+maxEmission%maxEmission
+maxEnergy%maxEnergy
+maxParticleSize%maxParticleSize
+maxSize%maxSize
+maxTextureSize%maxTextureSize
+maxVolume%maxVolume
+maximumForce%maximumForce
+maximumLOD%maximumLOD
+mesh%mesh
+messageOptions%messageOptions
+min%min
+minBounce%minBounce
+minDistance%minDistance
+minEmission%minEmission
+minEnergy%minEnergy
+minPenetrationForPenalty%minPenetrationForPenalty
+minSize%minSize
+minVolume%minVolume
+minimumAllocatableViewIDs%minimumAllocatableViewIDs
+mipMapBias%mipMapBias
+mipmapCount%mipmapCount
+mipmapEnabled%mipmapEnabled
+mipmapFadeDistanceEnd%mipmapFadeDistanceEnd
+mipmapFadeDistanceStart%mipmapFadeDistanceStart
+mipmapFilter%mipmapFilter
+mode%mode
+modelview%modelview
+motor%motor
+motorTorque%motorTorque
+mouseOverWindow%mouseOverWindow
+mousePosition%mousePosition
+moveDirection%moveDirection
+moveLength%moveLength
+movie%movie
+name%name
+natFacilitatorIP%natFacilitatorIP
+natFacilitatorPort%natFacilitatorPort
+nearClipPlane%nearClipPlane
+nearestControl%nearestControl
+networkView%networkView
+niceMouseDelta%niceMouseDelta
+niceMouseDeltaZoom%niceMouseDeltaZoom
+none%none
+normal%normal
+normalSmoothingAngle%normalSmoothingAngle
+normalized%normalized
+normalizedSpeed%normalizedSpeed
+normalizedTime%normalizedTime
+normalmapFilter%normalmapFilter
+normals%normals
+npotScale%npotScale
+numeric%numeric
+objectReferences%objectReferences
+objects%objects
+observed%observed
+oggVorbis%oggVorbis
+onActive%onActive
+onFocused%onFocused
+onHover%onHover
+onNormal%onNormal
+onUnitSphere%onUnitSphere
+one%one
+origChannelCount%origChannelCount
+origin%origin
+orthographic%orthographic
+orthographicSize%orthographicSize
+otherCollider%otherCollider
+outTangent%outTangent
+overflow%overflow
+owner%owner
+padding%padding
+parent%parent
+particleCount%particleCount
+particleEmitter%particleEmitter
+particleRenderMode%particleRenderMode
+particles%particles
+passCount%passCount
+passwordProtected%passwordProtected
+path%path
+paths%paths
+pause%pause
+peerType%peerType
+pitch%pitch
+pixelHeight%pixelHeight
+pixelInset%pixelInset
+pixelLightCount%pixelLightCount
+pixelOffset%pixelOffset
+pixelRect%pixelRect
+pixelWidth%pixelWidth
+platform%platform
+playAutomatically%playAutomatically
+playOnAwake%playOnAwake
+player%player
+playerLimit%playerLimit
+point%point
+port%port
+position%position
+positionDamper%positionDamper
+positionSpring%positionSpring
+postWrapMode%postWrapMode
+preWrapMode%preWrapMode
+preview%preview
+progress%progress
+projectionAngle%projectionAngle
+projectionDistance%projectionDistance
+projectionMatrix%projectionMatrix
+projectionMode%projectionMode
+propertyName%propertyName
+proxyIP%proxyIP
+proxyPassword%proxyPassword
+proxyPort%proxyPort
+quality%quality
+r%r
+radius%radius
+range%range
+realtimeSinceStartup%realtimeSinceStartup
+recalculateNormals%recalculateNormals
+receiveShadows%receiveShadows
+recommendedTextureFormat%recommendedTextureFormat
+rect%rect
+red%red
+reduceKeyframes%reduceKeyframes
+refreshRate%refreshRate
+relativeForce%relativeForce
+relativeTorque%relativeTorque
+relativeVelocity%relativeVelocity
+renderMode%renderMode
+renderQueue%renderQueue
+renderer%renderer
+resolutions%resolutions
+right%right
+rigidbody%rigidbody
+rndForce%rndForce
+rndVelocity%rndVelocity
+rolloffFactor%rolloffFactor
+root%root
+rotation%rotation
+rotationDriveMode%rotationDriveMode
+rpm%rpm
+runInBackground%runInBackground
+scrollView%scrollView
+seed%seed
+selectionColor%selectionColor
+sendRate%sendRate
+sender%sender
+settings%settings
+shader%shader
+shadowCascades%shadowCascades
+shadowConstantBias%shadowConstantBias
+shadowDistance%shadowDistance
+shadowObjectSizeBias%shadowObjectSizeBias
+shadowStrength%shadowStrength
+shadows%shadows
+sharedMaterial%sharedMaterial
+sharedMaterials%sharedMaterials
+sharedMesh%sharedMesh
+shift%shift
+showCursor%showCursor
+sidewaysDir%sidewaysDir
+sidewaysFriction%sidewaysFriction
+sidewaysSlip%sidewaysSlip
+size%size
+sizeGrow%sizeGrow
+skin%skin
+skinNormals%skinNormals
+skybox%skybox
+sleepAngularVelocity%sleepAngularVelocity
+sleepVelocity%sleepVelocity
+slerpDrive%slerpDrive
+slopeLimit%slopeLimit
+smoothDeltaTime%smoothDeltaTime
+smoothSphereCollisions%smoothSphereCollisions
+softVegetation%softVegetation
+solverIterationCount%solverIterationCount
+spaceStyle%spaceStyle
+speed%speed
+splitAnimations%splitAnimations
+splitTangentsAcrossSeams%splitTangentsAcrossSeams
+spotAngle%spotAngle
+spring%spring
+sqrMagnitude%sqrMagnitude
+srcValue%srcValue
+startWidth%startWidth
+stateSynchronization%stateSynchronization
+staticFriction%staticFriction
+staticFriction2%staticFriction2
+steerAngle%steerAngle
+stepOffset%stepOffset
+stiffness%stiffness
+streamedBytes%streamedBytes
+stretchHeight%stretchHeight
+stretchWidth%stretchWidth
+string%string
+subMeshCount%subMeshCount
+supportsImageEffects%supportsImageEffects
+supportsRenderTextures%supportsRenderTextures
+supportsShadows%supportsShadows
+suspensionDistance%suspensionDistance
+suspensionSpring%suspensionSpring
+swapUVChannels%swapUVChannels
+swing1Limit%swing1Limit
+swing2Limit%swing2Limit
+swingAxis%swingAxis
+systemCopyBuffer%systemCopyBuffer
+tabSize%tabSize
+tag%tag
+tangents%tangents
+targetAngularVelocity%targetAngularVelocity
+targetPosition%targetPosition
+targetRotation%targetRotation
+targetTexture%targetTexture
+targetVelocity%targetVelocity
+terrainData%terrainData
+text%text
+textArea%textArea
+textColor%textColor
+textField%textField
+texture%texture
+textureCoord%textureCoord
+textureCoord2%textureCoord2
+textureFormat%textureFormat
+thisCollider%thisCollider
+time%time
+timeScale%timeScale
+timeSinceLevelLoad%timeSinceLevelLoad
+timestamp%timestamp
+toggle%toggle
+tooltip%tooltip
+top%top
+torque%torque
+transform%transform
+transforms%transforms
+transpose%transpose
+treeBillboardDistance%treeBillboardDistance
+treeCrossFadeLength%treeCrossFadeLength
+treeDistance%treeDistance
+treeMaximumFullLODCount%treeMaximumFullLODCount
+triangleIndex%triangleIndex
+triangles%triangles
+tripleClickSelectsLine%tripleClickSelectsLine
+type%type
+unassigned%unassigned
+unityVersion%unityVersion
+up%up
+updateRate%updateRate
+updateWhenOffscreen%updateWhenOffscreen
+uploadProgress%uploadProgress
+url%url
+useConeFriction%useConeFriction
+useGravity%useGravity
+useLimits%useLimits
+useMipMap%useMipMap
+useMotor%useMotor
+useNat%useNat
+useProxy%useProxy
+useSpring%useSpring
+useWorldSpace%useWorldSpace
+userData%userData
+uv%uv
+uv2%uv2
+uvAnimationCycles%uvAnimationCycles
+uvAnimationXTile%uvAnimationXTile
+uvAnimationYTile%uvAnimationYTile
+value%value
+velocity%velocity
+velocityScale%velocityScale
+velocityUpdateMode%velocityUpdateMode
+vertexCount%vertexCount
+vertical%vertical
+verticalScrollbar%verticalScrollbar
+verticalScrollbarDownButton%verticalScrollbarDownButton
+verticalScrollbarThumb%verticalScrollbarThumb
+verticalScrollbarUpButton%verticalScrollbarUpButton
+verticalSlider%verticalSlider
+verticalSliderThumb%verticalSliderThumb
+vertices%vertices
+viewID%viewID
+visualMode%visualMode
+volume%volume
+w%w
+weight%weight
+weight0%weight0
+weight1%weight1
+weight2%weight2
+weight3%weight3
+white%white
+whiteTexture%whiteTexture
+width%width
+window%window
+wordWrap%wordWrap
+worldCenterOfMass%worldCenterOfMass
+worldRotationAxis%worldRotationAxis
+worldToCameraMatrix%worldToCameraMatrix
+worldToLocalMatrix%worldToLocalMatrix
+worldVelocity%worldVelocity
+wrapMode%wrapMode
+x%x
+xDrive%xDrive
+xMax%xMax
+xMin%xMin
+xMotion%xMotion
+y%y
+yDrive%yDrive
+yMax%yMax
+yMin%yMin
+yMotion%yMotion
+yellow%yellow
+z%z
+zDrive%zDrive
+zMotion%zMotion
+zero%zero
+AnimationBlendMode%AnimationBlendMode
+Additive%Additive
+Blend%Blend
+AudioImporterChannels%AudioImporterChannels
+Automatic%Automatic
+Mono%Mono
+Stereo%Stereo
+AudioImporterFormat%AudioImporterFormat
+Automatic%Automatic
+OggVorbis%OggVorbis
+Uncompressed%Uncompressed
+AudioVelocityUpdateMode%AudioVelocityUpdateMode
+Auto%Auto
+Dynamic%Dynamic
+Fixed%Fixed
+BuildAssetBundleOptions%BuildAssetBundleOptions
+CollectDependencies%CollectDependencies
+CompleteAssets%CompleteAssets
+BuildOptions%BuildOptions
+AutoRunPlayer%AutoRunPlayer
+BuildAdditionalStreamedScenes%BuildAdditionalStreamedScenes
+CompressTextures%CompressTextures
+ShowBuiltPlayer%ShowBuiltPlayer
+StripDebugSymbols%StripDebugSymbols
+BuildTarget%BuildTarget
+DashboardWidget%DashboardWidget
+StandaloneOSXIntel%StandaloneOSXIntel
+StandaloneOSXPPC%StandaloneOSXPPC
+StandaloneOSXUniversal%StandaloneOSXUniversal
+StandaloneWindows%StandaloneWindows
+WebPlayerStreamed%WebPlayerStreamed
+WebPlayer%WebPlayer
+CameraClearFlags%CameraClearFlags
+Depth%Depth
+Nothing%Nothing
+Skybox%Skybox
+SolidColor%SolidColor
+CollisionFlags%CollisionFlags
+Above%Above
+Below%Below
+None%None
+Sides%Sides
+ConfigurableJointMotion%ConfigurableJointMotion
+Free%Free
+Limited%Limited
+Locked%Locked
+ConnectionTesterStatus%ConnectionTesterStatus
+Error%Error
+PrivateIPHasNATPunchThrough%PrivateIPHasNATPunchThrough
+PrivateIPNoNATPunchthrough%PrivateIPNoNATPunchthrough
+PublicIPIsConnectable%PublicIPIsConnectable
+PublicIPNoServerStarted%PublicIPNoServerStarted
+PublicIPPortBlocked%PublicIPPortBlocked
+Undetermined%Undetermined
+CubemapFace%CubemapFace
+NegativeX%NegativeX
+NegativeY%NegativeY
+NegativeZ%NegativeZ
+PositiveX%PositiveX
+PositiveY%PositiveY
+PositiveZ%PositiveZ
+DragAndDropVisualMode%DragAndDropVisualMode
+Copy%Copy
+Generic%Generic
+Link%Link
+Move%Move
+None%None
+EventType%EventType
+ContextClick%ContextClick
+DragExited%DragExited
+DragPerform%DragPerform
+DragUpdated%DragUpdated
+ExecuteCommand%ExecuteCommand
+Ignore%Ignore
+KeyDown%KeyDown
+KeyUp%KeyUp
+Layout%Layout
+MouseDown%MouseDown
+MouseDrag%MouseDrag
+MouseMove%MouseMove
+MouseUp%MouseUp
+Repaint%Repaint
+ScrollWheel%ScrollWheel
+Used%Used
+ValidateCommand%ValidateCommand
+FilterMode%FilterMode
+Bilinear%Bilinear
+Point%Point
+Trilinear%Trilinear
+FocusType%FocusType
+Keyboard%Keyboard
+Native%Native
+Passive%Passive
+ForceMode%ForceMode
+Acceleration%Acceleration
+Force%Force
+Impulse%Impulse
+VelocityChange%VelocityChange
+GizmoType%GizmoType
+Active%Active
+NotSelected%NotSelected
+Pickable%Pickable
+SelectedOrChild%SelectedOrChild
+Selected%Selected
+HideFlags%HideFlags
+DontSave%DontSave
+HideAndDontSave%HideAndDontSave
+HideInHierarchy%HideInHierarchy
+HideInInspector%HideInInspector
+NotEditable%NotEditable
+ImagePosition%ImagePosition
+ImageAbove%ImageAbove
+ImageLeft%ImageLeft
+ImageOnly%ImageOnly
+TextOnly%TextOnly
+ImportAssetOptions%ImportAssetOptions
+Default%Default
+ForceDisplayPrefs%ForceDisplayPrefs
+ForceSynchronousImport%ForceSynchronousImport
+ForceUpdate%ForceUpdate
+ImportRecursive%ImportRecursive
+MayCancelImport%MayCancelImport
+RefreshDoesStartStopAssetEditing%RefreshDoesStartStopAssetEditing
+TryFastReimportFromMetaData%TryFastReimportFromMetaData
+JointDriveMode%JointDriveMode
+None%None
+PositionAndVelocity%PositionAndVelocity
+Position%Position
+Velocity%Velocity
+JointProjectionMode%JointProjectionMode
+None%None
+PositionAndRotation%PositionAndRotation
+PositionOnly%PositionOnly
+KeyCode%KeyCode
+Alpha0%Alpha0
+Alpha1%Alpha1
+Alpha2%Alpha2
+Alpha3%Alpha3
+Alpha4%Alpha4
+Alpha5%Alpha5
+Alpha6%Alpha6
+Alpha7%Alpha7
+Alpha8%Alpha8
+Alpha9%Alpha9
+AltGr%AltGr
+Ampersand%Ampersand
+Asterisk%Asterisk
+At%At
+A%A
+BackQuote%BackQuote
+Backslash%Backslash
+Backspace%Backspace
+Break%Break
+B%B
+CapsLock%CapsLock
+Caret%Caret
+Clear%Clear
+Colon%Colon
+Comma%Comma
+C%C
+Delete%Delete
+Dollar%Dollar
+DoubleQuote%DoubleQuote
+DownArrow%DownArrow
+D%D
+End%End
+Equals%Equals
+Escape%Escape
+Exclaim%Exclaim
+E%E
+F10%F10
+F11%F11
+F12%F12
+F13%F13
+F14%F14
+F15%F15
+F1%F1
+F2%F2
+F3%F3
+F4%F4
+F5%F5
+F6%F6
+F7%F7
+F8%F8
+F9%F9
+F%F
+Greater%Greater
+G%G
+Hash%Hash
+Help%Help
+Home%Home
+H%H
+Insert%Insert
+I%I
+Joystick1Button0%Joystick1Button0
+Joystick1Button10%Joystick1Button10
+Joystick1Button11%Joystick1Button11
+Joystick1Button12%Joystick1Button12
+Joystick1Button13%Joystick1Button13
+Joystick1Button14%Joystick1Button14
+Joystick1Button15%Joystick1Button15
+Joystick1Button16%Joystick1Button16
+Joystick1Button17%Joystick1Button17
+Joystick1Button18%Joystick1Button18
+Joystick1Button19%Joystick1Button19
+Joystick1Button1%Joystick1Button1
+Joystick1Button2%Joystick1Button2
+Joystick1Button3%Joystick1Button3
+Joystick1Button4%Joystick1Button4
+Joystick1Button5%Joystick1Button5
+Joystick1Button6%Joystick1Button6
+Joystick1Button7%Joystick1Button7
+Joystick1Button8%Joystick1Button8
+Joystick1Button9%Joystick1Button9
+Joystick2Button0%Joystick2Button0
+Joystick2Button10%Joystick2Button10
+Joystick2Button11%Joystick2Button11
+Joystick2Button12%Joystick2Button12
+Joystick2Button13%Joystick2Button13
+Joystick2Button14%Joystick2Button14
+Joystick2Button15%Joystick2Button15
+Joystick2Button16%Joystick2Button16
+Joystick2Button17%Joystick2Button17
+Joystick2Button18%Joystick2Button18
+Joystick2Button19%Joystick2Button19
+Joystick2Button1%Joystick2Button1
+Joystick2Button2%Joystick2Button2
+Joystick2Button3%Joystick2Button3
+Joystick2Button4%Joystick2Button4
+Joystick2Button5%Joystick2Button5
+Joystick2Button6%Joystick2Button6
+Joystick2Button7%Joystick2Button7
+Joystick2Button8%Joystick2Button8
+Joystick2Button9%Joystick2Button9
+Joystick3Button0%Joystick3Button0
+Joystick3Button10%Joystick3Button10
+Joystick3Button11%Joystick3Button11
+Joystick3Button12%Joystick3Button12
+Joystick3Button13%Joystick3Button13
+Joystick3Button14%Joystick3Button14
+Joystick3Button15%Joystick3Button15
+Joystick3Button16%Joystick3Button16
+Joystick3Button17%Joystick3Button17
+Joystick3Button18%Joystick3Button18
+Joystick3Button19%Joystick3Button19
+Joystick3Button1%Joystick3Button1
+Joystick3Button2%Joystick3Button2
+Joystick3Button3%Joystick3Button3
+Joystick3Button4%Joystick3Button4
+Joystick3Button5%Joystick3Button5
+Joystick3Button6%Joystick3Button6
+Joystick3Button7%Joystick3Button7
+Joystick3Button8%Joystick3Button8
+Joystick3Button9%Joystick3Button9
+JoystickButton0%JoystickButton0
+JoystickButton10%JoystickButton10
+JoystickButton11%JoystickButton11
+JoystickButton12%JoystickButton12
+JoystickButton13%JoystickButton13
+JoystickButton14%JoystickButton14
+JoystickButton15%JoystickButton15
+JoystickButton16%JoystickButton16
+JoystickButton17%JoystickButton17
+JoystickButton18%JoystickButton18
+JoystickButton19%JoystickButton19
+JoystickButton1%JoystickButton1
+JoystickButton2%JoystickButton2
+JoystickButton3%JoystickButton3
+JoystickButton4%JoystickButton4
+JoystickButton5%JoystickButton5
+JoystickButton6%JoystickButton6
+JoystickButton7%JoystickButton7
+JoystickButton8%JoystickButton8
+JoystickButton9%JoystickButton9
+J%J
+Keypad0%Keypad0
+Keypad1%Keypad1
+Keypad2%Keypad2
+Keypad3%Keypad3
+Keypad4%Keypad4
+Keypad5%Keypad5
+Keypad6%Keypad6
+Keypad7%Keypad7
+Keypad8%Keypad8
+Keypad9%Keypad9
+KeypadDivide%KeypadDivide
+KeypadEnter%KeypadEnter
+KeypadEquals%KeypadEquals
+KeypadMinus%KeypadMinus
+KeypadMultiply%KeypadMultiply
+KeypadPeriod%KeypadPeriod
+KeypadPlus%KeypadPlus
+K%K
+LeftAlt%LeftAlt
+LeftApple%LeftApple
+LeftArrow%LeftArrow
+LeftBracket%LeftBracket
+LeftControl%LeftControl
+LeftParen%LeftParen
+LeftShift%LeftShift
+LeftWindows%LeftWindows
+Less%Less
+L%L
+Minus%Minus
+Mouse0%Mouse0
+Mouse1%Mouse1
+Mouse2%Mouse2
+Mouse3%Mouse3
+Mouse4%Mouse4
+Mouse5%Mouse5
+Mouse6%Mouse6
+M%M
+Numlock%Numlock
+N%N
+O%O
+PageDown%PageDown
+PageUp%PageUp
+Pause%Pause
+Period%Period
+Plus%Plus
+Print%Print
+P%P
+Question%Question
+Quote%Quote
+Q%Q
+Return%Return
+RightAlt%RightAlt
+RightApple%RightApple
+RightArrow%RightArrow
+RightBracket%RightBracket
+RightControl%RightControl
+RightParen%RightParen
+RightShift%RightShift
+RightWindows%RightWindows
+R%R
+ScrollLock%ScrollLock
+Semicolon%Semicolon
+Slash%Slash
+Space%Space
+SysReq%SysReq
+S%S
+Tab%Tab
+T%T
+Underscore%Underscore
+UpArrow%UpArrow
+U%U
+V%V
+W%W
+X%X
+Y%Y
+Z%Z
+LightRenderMode%LightRenderMode
+Auto%Auto
+ForcePixel%ForcePixel
+ForceVertex%ForceVertex
+LightShadows%LightShadows
+Hard%Hard
+None%None
+Soft%Soft
+LightType%LightType
+Directional%Directional
+Point%Point
+Spot%Spot
+MasterServerEvent%MasterServerEvent
+HostListReceived%HostListReceived
+RegistrationFailedGameName%RegistrationFailedGameName
+RegistrationFailedGameType%RegistrationFailedGameType
+RegistrationFailedNoServer%RegistrationFailedNoServer
+RegistrationSucceeded%RegistrationSucceeded
+ModelImporterGenerateAnimations%ModelImporterGenerateAnimations
+InNodes%InNodes
+InOriginalRoots%InOriginalRoots
+InRoot%InRoot
+None%None
+ModelImporterGenerateMaterials%ModelImporterGenerateMaterials
+None%None
+PerSourceMaterial%PerSourceMaterial
+PerTexture%PerTexture
+MouseCursor%MouseCursor
+Arrow%Arrow
+ResizeHorizontal%ResizeHorizontal
+ResizeVertical%ResizeVertical
+Text%Text
+NetworkConnectionError%NetworkConnectionError
+AlreadyConnectedToAnotherServer%AlreadyConnectedToAnotherServer
+ConnectionBanned%ConnectionBanned
+ConnectionFailed%ConnectionFailed
+CreateSocketOrThreadFailure%CreateSocketOrThreadFailure
+EmptyConnectTarget%EmptyConnectTarget
+IncorrectParameters%IncorrectParameters
+InternalDirectConnectFailed%InternalDirectConnectFailed
+InvalidPassword%InvalidPassword
+NATTargetConnectionLost%NATTargetConnectionLost
+NATTargetNotConnected%NATTargetNotConnected
+NoError%NoError
+RSAPublicKeyMismatch%RSAPublicKeyMismatch
+TooManyConnectedPlayers%TooManyConnectedPlayers
+NetworkDisconnection%NetworkDisconnection
+Disconnected%Disconnected
+LostConnection%LostConnection
+NetworkPeerType%NetworkPeerType
+Client%Client
+Connecting%Connecting
+Disconnected%Disconnected
+Server%Server
+NetworkStateSynchronization%NetworkStateSynchronization
+Off%Off
+ReliableDeltaCompressed%ReliableDeltaCompressed
+Unreliable%Unreliable
+ParticleRenderMode%ParticleRenderMode
+Billboard%Billboard
+HorizontalBillboard%HorizontalBillboard
+SortedBillboard%SortedBillboard
+Stretch%Stretch
+VerticalBillboard%VerticalBillboard
+PhysicMaterialCombine%PhysicMaterialCombine
+Average%Average
+Maximum%Maximum
+Minimum%Minimum
+Multiply%Multiply
+PlayMode%PlayMode
+StopAll%StopAll
+StopSameLayer%StopSameLayer
+PrefabType%PrefabType
+DisconnectedModelPrefabInstance%DisconnectedModelPrefabInstance
+DisconnectedPrefabInstance%DisconnectedPrefabInstance
+MissingPrefabInstance%MissingPrefabInstance
+ModelPrefabInstance%ModelPrefabInstance
+ModelPrefab%ModelPrefab
+None%None
+PrefabInstance%PrefabInstance
+Prefab%Prefab
+PrimitiveType%PrimitiveType
+Capsule%Capsule
+Cube%Cube
+Cylinder%Cylinder
+Plane%Plane
+Sphere%Sphere
+QualityLevel%QualityLevel
+Beautiful%Beautiful
+Fantastic%Fantastic
+Fastest%Fastest
+Fast%Fast
+Good%Good
+Simple%Simple
+QueueMode%QueueMode
+CompleteOthers%CompleteOthers
+PlayNow%PlayNow
+RenderTextureFormat%RenderTextureFormat
+ARGB32%ARGB32
+Depth%Depth
+ReplacePrefabOptions%ReplacePrefabOptions
+ConnectToPrefab%ConnectToPrefab
+Default%Default
+ReplaceNameBased%ReplaceNameBased
+RigidbodyInterpolation%RigidbodyInterpolation
+Extrapolate%Extrapolate
+Interpolate%Interpolate
+None%None
+RotationDriveMode%RotationDriveMode
+Slerp%Slerp
+XYAndZ%XYAndZ
+RPCMode%RPCMode
+AllBuffered%AllBuffered
+All%All
+OthersBuffered%OthersBuffered
+Others%Others
+Server%Server
+RuntimePlatform%RuntimePlatform
+OSXDashboardPlayer%OSXDashboardPlayer
+OSXEditor%OSXEditor
+OSXPlayer%OSXPlayer
+OSXWebPlayer%OSXWebPlayer
+WindowsPlayer%WindowsPlayer
+WindowsWebPlayer%WindowsWebPlayer
+ScaleMode%ScaleMode
+ScaleAndCrop%ScaleAndCrop
+ScaleToFit%ScaleToFit
+StretchToFill%StretchToFill
+SelectionMode%SelectionMode
+Assets%Assets
+DeepAssets%DeepAssets
+Deep%Deep
+Editable%Editable
+ExcludePrefab%ExcludePrefab
+TopLevel%TopLevel
+Unfiltered%Unfiltered
+SendMessageOptions%SendMessageOptions
+DontRequireReceiver%DontRequireReceiver
+RequireReceiver%RequireReceiver
+SkinQuality%SkinQuality
+Auto%Auto
+Bone1%Bone1
+Bone2%Bone2
+Bone4%Bone4
+Space%Space
+Self%Self
+World%World
+TerrainLighting%TerrainLighting
+Lightmap%Lightmap
+Pixel%Pixel
+Vertex%Vertex
+TextAlignment%TextAlignment
+Center%Center
+Left%Left
+Right%Right
+TextAnchor%TextAnchor
+LowerCenter%LowerCenter
+LowerLeft%LowerLeft
+LowerRight%LowerRight
+MiddleCenter%MiddleCenter
+MiddleLeft%MiddleLeft
+MiddleRight%MiddleRight
+UpperCenter%UpperCenter
+UpperLeft%UpperLeft
+UpperRight%UpperRight
+TextClipping%TextClipping
+Clip%Clip
+Overflow%Overflow
+TextureFormat%TextureFormat
+Alpha8%Alpha8
+ARGB32%ARGB32
+DXT1%DXT1
+DXT5%DXT5
+RGB24%RGB24
+TextureImporterFormat%TextureImporterFormat
+Alpha8%Alpha8
+ARGB16%ARGB16
+ARGB32%ARGB32
+Automatic%Automatic
+DXT1%DXT1
+DXT5%DXT5
+RGB16%RGB16
+RGB24%RGB24
+TextureImporterGenerateCubemap%TextureImporterGenerateCubemap
+Cylindrical%Cylindrical
+NiceSpheremap%NiceSpheremap
+None%None
+SimpleSpheremap%SimpleSpheremap
+Spheremap%Spheremap
+TextureImporterMipFilter%TextureImporterMipFilter
+BoxFilter%BoxFilter
+KaiserFilter%KaiserFilter
+TextureImporterNormalFilter%TextureImporterNormalFilter
+Sobel%Sobel
+Standard%Standard
+TextureImporterNPOTScale%TextureImporterNPOTScale
+None%None
+ToLarger%ToLarger
+ToNearest%ToNearest
+ToSmaller%ToSmaller
+TextureWrapMode%TextureWrapMode
+Clamp%Clamp
+Repeat%Repeat
+WrapMode%WrapMode
+ClampForever%ClampForever
+Default%Default
+Loop%Loop
+Once%Once
+PingPong%PingPong
+GetAccelerationEvent%GetAccelerationEvent ( int index )%Returns (iPhoneAccelerationEvent) specific acceleration measurement which occurred during last frame (Does not allocate temporary variables)
+GetTouch%GetTouch ( int index )%Returns (iPhoneTouch) object representing status of a specific touch (Does not allocate temporary variables)
+SetSizeXY%SetSizeXY ( float width, float height )%Sets the physical dimensions of the sprite in the XY plane
+SetSizeXZ%SetSizeXZ ( float width, float height )%Sets the physical dimensions of the sprite in the XZ plane
+SetSizeYZ%SetSizeYZ ( float width, float height )%Sets the physical dimensions of the sprite in the YZ plane
+SetBuffers%SetBuffers ( Vector3[] v, Vector2[] uv )%Sets the vertex and UV buffers
+Transform%Transform ()%Applies the transform of the client GameObject and stores the results in the associated vertices of the overall mesh
+TransformBillboarded%TransformBillboarded ( t:Transform )%Applies the transform of the client GameObject and stores the results in the associated vertices of the overall mesh
+SetColor%SetColor ( Color c )%Sets the specified color and automatically notifies the SpriteManager to update the colors
+PixelSpaceToUVSpace%PixelSpaceToUVSpace ( Vector2 xy )%Converts pixel-space values to UV-space scalar values according to the currently assigned material. NOTE: This is for converting widths and heights-not coordinates (which have reversed Y-coordinates). For coordinates, use PixelCoordToUVCoord()!
+PixelSpaceToUVSpace%PixelSpaceToUVSpace ( int x, int y )%Converts pixel-space values to UV-space scalar values according to the currently assigned material. NOTE: This is for converting widths and heights-not coordinates (which have reversed Y-coordinates). For coordinates, use PixelCoordToUVCoord()!
+PixelCoordToUVCoord%PixelCoordToUVCoord ( Vector2 xy )%Converts pixel coordinates to UV coordinates according to the currently assigned material. NOTE: This is for converting coordinates and will reverse the Y component accordingly.  For converting widths and heights, use PixelSpaceToUVSpace()!
+PixelCoordToUVCoord%PixelCoordToUVCoord ( int x, int y )%Converts pixel coordinates to UV coordinates according to the currently assigned material. NOTE: This is for converting coordinates and will reverse the Y component accordingly.  For converting widths and heights, use PixelSpaceToUVSpace()!
+AddSprite%AddSprite ( GameObject client, float width, float height, int leftPixelX, int bottomPixelY, int pixelWidth, int pixelHeight, boolean billboarded )%Adds a sprite to the manager at the location and rotation of the client GameObject and with its transform.  Returns a reference to the new sprite Width and height are in world space units leftPixelX and bottomPixelY- the bottom-left position of the desired portion of the texture, in pixels pixelWidth and pixelHeight - the dimensions of the desired portion of the texture, in pixels
+AddSprite%AddSprite ( GameObject client, float width, float height, Vector2 lowerLeftUV, Vector2 UVDimensions, boolean billboarded )%Adds a sprite to the manager at the location and rotation of the client GameObject and with its transform.  Returns a reference to the new sprite Width and height are in world space units, lowerLeftUV - the UV coordinate for the upper-left corner, UVDimensions - the distance from lowerLeftUV to place the other UV coords
+SetBillboarded%SetBillboarded ( Sprite sprite )
+RemoveSprite%RemoveSprite ( Sprite sprite )
+GetSprite%GetSprite ( int i )
+Transform%Transform ( Sprite sprite )%Updates the vertices of a sprite based on the transform of its client GameObject
+TransformBillboarded%TransformBillboarded ( Sprite sprite )%Updates the vertices of a sprite such that it is oriented more or less toward the camera
+UpdatePositions%UpdatePositions ()%Informs the SpriteManager that some vertices have changed position and the mesh needs to be reconstructed accordingly
+UpdateUV%UpdateUV ( Sprite sprite )%Updates the UVs of the specified sprite and copies the new values into the mesh object
+UpdateColors%UpdateColors ( Sprite sprite )%Updates the color values of the specified sprite and copies the new values into the mesh object
+UpdateBounds%UpdateBounds ()%Instructs the manager to recalculate the bounds of the mesh
+ScheduleBoundsUpdate%ScheduleBoundsUpdate ( float seconds )%Schedules a recalculation of the mesh bounds to occur at a regular interval (given in seconds)
+CancelBoundsUpdate%CancelBoundsUpdate ()%Cancels any previously scheduled bounds recalculations
+To%To ( Object object, float duration, Hashtable properties, Hashtable options )%Returns WaitForSeconds(duration). Create an animation from the current value to the given value. Move object from it's current position to (10,0,0) Ani.Mate.To(transform, 3, {"position": new Vector3(10,0,0)})
+From%From ( Object object, float duration, Hashtable properties, Hashtable options )%Returns WaitForSeconds(duration). Create an animation from the given value to the current value. Move object from (0,0,0) to it's current position Ani.Mate.From(transform, 3, {"localScale": new Vector3(0,0,0)})
+By%By ( Object object, float duration, Hashtable properties, Hashtable options )%Returns WaitForSeconds(duration). Create an animation from the current value and animate by the given value. Move object by 10 units on the x axis Ani.Mate.By(transform, 3, {"localScale": new Vector3(10,0,0)})
+Stop%Stop ( Object object, string name )%Stop animations on an object for a given field/proeprty. Ani.Mate.Stop(transform, "position")
+StopAll%StopAll ( Object object )%Stop all animations on a given object.%Ani.Mate.StopAll(transform)

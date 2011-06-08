@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>exit_show_html "&lt;meta http-equiv='Refresh' content='0;URL=http://unity3d.com/support/documentation/ScriptReference/30_search.html?q=$TM_SELECTED_TEXT'&gt;"</string>
+	<key>fallbackInput</key>
+	<string>word</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>Search Online Documentation for Selected</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>BF0D80B0-C828-4849-9FA5-607F6B640763</string>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>function OnGUI () {
+	$0
+}</string>
+	<key>name</key>
+	<string>OnGUI()</string>
+	<key>scope</key>
+	<string>source.js.unity</string>
+	<key>tabTrigger</key>
+	<string>gui</string>
+	<key>uuid</key>
+	<string>3872947E-16BA-4286-A90D-7CBCCF74A69E</string>
+</dict>
+</plist>
